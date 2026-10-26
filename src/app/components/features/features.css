@@ -1,0 +1,276 @@
+:host {
+  display: block;
+}
+
+.reliable-section {
+  position: relative;
+  background: linear-gradient(180deg, #ffffff 0%, #fafdff 60%, #f4faf6 100%);
+  padding: 60px 0 70px;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(11, 77, 50, 0.06);
+}
+
+/* Background fluid wave swoosh */
+.reliable-bg-swoosh {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.reliable-bg-swoosh svg {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.reliable-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+/* ================= LEFT TITLE ================= */
+.reliable-title-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.reliable-title {
+  font-family: var(--font-headline, 'Playfair Display', Georgia, serif);
+  font-size: clamp(34px, 3.2vw, 46px);
+  font-weight: 800;
+  line-height: 1.14;
+  margin: 0;
+  letter-spacing: -0.015em;
+}
+
+.title-dark {
+  color: #0c2b20;
+  display: block;
+}
+
+.title-green {
+  color: #17684d;
+  display: block;
+}
+
+.reliable-accent-bar {
+  width: 48px;
+  height: 4px;
+  background: #17684d;
+  border-radius: 2px;
+  margin-top: 14px;
+}
+
+/* ================= RIGHT CONNECTED STEPS ================= */
+.reliable-steps-col {
+  position: relative;
+  width: 100%;
+}
+
+/* Connecting Undulating Wave Line */
+.connecting-curve-svg {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.animated-path {
+  stroke-dasharray: 8 5;
+  animation: flow-line 25s linear infinite;
+}
+
+@keyframes flow-line {
+  to {
+    stroke-dashoffset: -300;
+  }
+}
+
+.connector-node {
+  animation: pulse-node 3s ease-in-out infinite;
+}
+
+@keyframes pulse-node {
+  0%, 100% {
+    r: 3.5;
+    opacity: 0.75;
+  }
+  50% {
+    r: 5;
+    opacity: 1;
+    filter: drop-shadow(0 0 4px rgba(27, 114, 82, 0.6));
+  }
+}
+
+.steps-row {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+/* ================= STEP CARD ================= */
+.step-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+  max-width: 145px;
+}
+
+.step-card-box {
+  background: #ffffff;
+  border-radius: 22px;
+  padding: 16px 10px 15px;
+  box-shadow:
+    0 12px 30px rgba(10, 45, 30, 0.065),
+    0 2px 6px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(16, 185, 129, 0.08);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.step-card:hover .step-card-box {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 20px 42px rgba(10, 45, 30, 0.14);
+  border-color: rgba(23, 104, 77, 0.25);
+}
+
+/* Badge with Layered 3D Crescent Depth matching reference */
+.step-badge-outer {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  margin-bottom: 12px;
+}
+
+.step-badge-crescent {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: #093724;
+  z-index: 1;
+  opacity: 0.95;
+  transition: transform 0.35s ease;
+}
+
+.step-card:hover .step-badge-crescent {
+  transform: scale(1.06);
+  background: #062618;
+}
+
+.step-badge-disc {
+  position: relative;
+  z-index: 2;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background: #e7f5ef;
+  border: 2px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #126344;
+  box-shadow: 0 6px 14px rgba(10, 45, 30, 0.1);
+  transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.step-svg {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.step-card:hover .step-badge-disc {
+  background: #17684d;
+  color: #ffffff;
+  transform: scale(1.08);
+  box-shadow: 0 0 22px rgba(23, 104, 77, 0.45);
+}
+
+.step-card:hover .step-svg {
+  transform: scale(1.08);
+}
+
+/* Label - Serif font matching screenshot */
+.step-label {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.22;
+  margin-top: 3px;
+  transition: transform 0.25s ease;
+}
+
+.step-l1,
+.step-l2 {
+  font-family: var(--font-body, 'Inter', -apple-system, sans-serif);
+  font-size: 13.5px;
+  font-weight: 700;
+  color: #0c2b20;
+  letter-spacing: -0.01em;
+  transition: color 0.25s ease;
+}
+
+.step-card:hover .step-l1,
+.step-card:hover .step-l2 {
+  color: #17684d;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1180px) {
+  .reliable-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .reliable-title-col {
+    text-align: center;
+    align-items: center;
+  }
+  .steps-row {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .connecting-curve-svg {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .reliable-section {
+    padding: 40px 0 50px;
+  }
+  .reliable-title {
+    font-size: 30px;
+  }
+  .steps-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .step-card {
+    max-width: 100%;
+  }
+}

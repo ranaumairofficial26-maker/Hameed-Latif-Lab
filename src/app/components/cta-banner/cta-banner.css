@@ -1,0 +1,217 @@
+:host {
+  display: block;
+}
+
+/* Reduced top space as requested */
+.cta-banner-section {
+  position: relative;
+  background: #ffffff;
+  padding: 15px 0 55px;
+}
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* ================= BANNER CARD (REDUCED BY 15% MORE) ================= */
+.cta-banner-card {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #edf5f1;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  box-shadow:
+    0 12px 34px rgba(8, 48, 30, 0.065),
+    0 2px 5px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(16, 185, 129, 0.12);
+}
+
+/* Background scientist & test tube layer */
+.cta-bg-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.cta-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+}
+
+.cta-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    #edf5f1 0%,
+    rgba(237, 245, 241, 0.96) 24%,
+    rgba(237, 245, 241, 0.7) 48%,
+    rgba(237, 245, 241, 0) 80%
+  );
+}
+
+/* ================= CONTENT BOX ================= */
+.cta-content {
+  position: relative;
+  z-index: 2;
+  padding: 30px 46px;
+  max-width: 540px;
+}
+
+/* Eyebrow matching screenshot */
+.cta-eyebrow {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+  margin-bottom: 8px;
+}
+
+.eyebrow-line-1,
+.eyebrow-line-2 {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  color: #17684d;
+}
+
+/* Headline */
+.cta-title {
+  font-family: var(--font-headline, 'Playfair Display', Georgia, serif);
+  font-size: clamp(26px, 2.6vw, 36px);
+  font-weight: 800;
+  line-height: 1.15;
+  color: #072517;
+  letter-spacing: -0.015em;
+  margin: 0 0 8px;
+}
+
+/* Subtext */
+.cta-subtext {
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #435e53;
+  margin: 0 0 18px;
+  max-width: 420px;
+}
+
+/* Dual CTA Action Buttons */
+.cta-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Primary Button: Book a Test */
+.btn-book-test {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #07452d;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 5px 18px rgba(7, 69, 45, 0.25);
+  transition: all 0.32s cubic-bezier(0.34, 1.56, 0.64, 1);
+  white-space: nowrap;
+}
+
+.btn-book-test:hover {
+  background: #042c1d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(7, 69, 45, 0.38);
+}
+
+.btn-arrow {
+  transition: transform 0.25s ease;
+}
+
+.btn-book-test:hover .btn-arrow {
+  transform: translateX(4px);
+}
+
+/* Secondary Button: Request Home Sampling */
+.btn-request-sampling {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  color: #07452d;
+  border: 1.6px solid #07452d;
+  padding: 9px 20px;
+  border-radius: 9999px;
+  font-family: var(--font-body, 'Inter', sans-serif);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.btn-request-sampling:hover {
+  background: #07452d;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 16px rgba(7, 69, 45, 0.2);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+  .cta-content {
+    padding: 26px 28px;
+    max-width: 440px;
+  }
+  .cta-bg-layer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cta-banner-section {
+    padding: 20px 0 45px;
+  }
+  .cta-banner-card {
+    min-height: auto;
+    flex-direction: column;
+  }
+  .cta-bg-layer {
+    position: relative;
+    width: 100%;
+    height: 180px;
+  }
+  .cta-gradient-overlay {
+    background: linear-gradient(to bottom, transparent 30%, #edf5f1 100%);
+  }
+  .cta-content {
+    padding: 24px 20px 30px;
+    max-width: 100%;
+  }
+  .cta-title {
+    font-size: 26px;
+  }
+  .cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .btn-book-test,
+  .btn-request-sampling {
+    justify-content: center;
+    width: 100%;
+  }
+}

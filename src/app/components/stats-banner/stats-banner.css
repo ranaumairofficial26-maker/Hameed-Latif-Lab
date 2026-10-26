@@ -1,0 +1,164 @@
+:host {
+  display: block;
+}
+
+/* Outer Section: Provides breathing room on top and bottom */
+.stats-banner-section {
+  position: relative;
+  padding: 28px 0 36px;
+  background: transparent;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Rounded Floating Pill Container with Side Space */
+.stats-pill-wrapper {
+  position: relative;
+  background: linear-gradient(135deg, #05291b 0%, #0a442c 50%, #05291b 100%);
+  border-radius: 22px;
+  border: 1px solid rgba(52, 211, 153, 0.28);
+  box-shadow:
+    0 16px 36px rgba(4, 30, 19, 0.22),
+    0 4px 12px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  padding: 10px 18px;
+  overflow: hidden;
+}
+
+/* Background ambient glow inside the pill */
+.stats-bg-glow {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 50%, rgba(52, 211, 153, 0.14) 0%, transparent 40%),
+    radial-gradient(circle at 82% 50%, rgba(52, 211, 153, 0.14) 0%, transparent 40%);
+  pointer-events: none;
+}
+
+.stats-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: relative;
+  z-index: 2;
+}
+
+/* ================= STAT CARD ================= */
+.stat-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 16px;
+  border-radius: 14px;
+  cursor: pointer;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  flex: 1;
+}
+
+.stat-card:hover {
+  background: rgba(255, 255, 255, 0.09);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Icon */
+.stat-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5eead4;
+  flex-shrink: 0;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.stat-card:hover .stat-icon-wrap {
+  color: #a7f3d0;
+  transform: scale(1.18) rotate(5deg);
+  filter: drop-shadow(0 0 12px #34d399);
+}
+
+/* Text */
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.stat-value {
+  font-family: var(--font-headline);
+  font-size: clamp(20px, 1.8vw, 26px);
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.01em;
+  transition: all 0.25s ease;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.stat-card:hover .stat-value {
+  color: #ffffff;
+  text-shadow: 0 0 14px rgba(255, 255, 255, 0.8), 0 0 24px rgba(52, 211, 153, 0.5);
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #b7ded0;
+  font-weight: 500;
+  margin-top: 3px;
+  letter-spacing: 0.01em;
+  transition: color 0.25s ease;
+}
+
+.stat-card:hover .stat-label {
+  color: #ffffff;
+}
+
+/* Divider */
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.14);
+  flex-shrink: 0;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+  .stats-pill-wrapper {
+    padding: 14px;
+    border-radius: 18px;
+  }
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .stat-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .stats-banner-section {
+    padding: 18px 0 24px;
+  }
+  .stats-pill-wrapper {
+    border-radius: 16px;
+    padding: 12px;
+  }
+  .stats-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .stat-card {
+    padding: 8px 12px;
+  }
+  .stat-value {
+    font-size: 21px;
+  }
+}

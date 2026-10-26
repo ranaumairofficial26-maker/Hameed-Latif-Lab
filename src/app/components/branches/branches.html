@@ -1,0 +1,156 @@
+<section class="branches-section" id="branches">
+  <!-- Subtle ambient map network background lines & floating pins -->
+  <div class="branches-map-bg" aria-hidden="true">
+    <svg class="map-network-svg" viewBox="0 0 1440 450" fill="none" preserveAspectRatio="none">
+      <!-- Faint city street grid lines -->
+      <path d="M 550 50 Q 750 140, 950 60 T 1350 90" stroke="rgba(16, 185, 129, 0.16)" stroke-width="1.8" stroke-dasharray="6 6"/>
+      <path d="M 680 90 Q 820 220, 1050 120 T 1400 180" stroke="rgba(16, 185, 129, 0.14)" stroke-width="1.8"/>
+      <path d="M 850 150 Q 1020 260, 1200 170 T 1440 250" stroke="rgba(16, 185, 129, 0.12)" stroke-width="1.5" stroke-dasharray="8 6"/>
+
+      <!-- Glowing network map pin nodes -->
+      <g class="network-pin pin-1">
+        <circle cx="720" cy="95" r="5" fill="#1b7252"/>
+        <circle cx="720" cy="95" r="14" stroke="rgba(27, 114, 82, 0.25)" stroke-width="1.5" class="pulse-ring"/>
+      </g>
+      <g class="network-pin pin-2">
+        <circle cx="950" cy="65" r="5" fill="#1b7252"/>
+        <circle cx="950" cy="65" r="14" stroke="rgba(27, 114, 82, 0.25)" stroke-width="1.5" class="pulse-ring"/>
+      </g>
+      <g class="network-pin pin-3">
+        <circle cx="1120" cy="140" r="5" fill="#1b7252"/>
+        <circle cx="1120" cy="140" r="14" stroke="rgba(27, 114, 82, 0.25)" stroke-width="1.5" class="pulse-ring"/>
+      </g>
+      <g class="network-pin pin-4">
+        <circle cx="1320" cy="190" r="5" fill="#1b7252"/>
+        <circle cx="1320" cy="190" r="14" stroke="rgba(27, 114, 82, 0.25)" stroke-width="1.5" class="pulse-ring"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="container">
+    <!-- Top Row: Section Intro matching reference image -->
+    <div class="branches-header-grid">
+      <div class="branches-info">
+        <div class="branches-eyebrow">
+          <span>OUR BRANCH NETWORK</span>
+          <span class="eyebrow-line"></span>
+        </div>
+        <h2 class="branches-headline">
+          Multiple Locations for<br />
+          <span class="headline-highlight">Your Convenience</span>
+        </h2>
+        <p class="branches-subtext">
+          Our branches are strategically located across Lahore to provide easy access to reliable diagnostic services, rapid report collection, and compassionate patient care.
+        </p>
+      </div>
+
+      <div class="branches-action">
+        <a href="#branches" class="btn-all-branches" id="btn-view-branches">
+          <span>View All Branches</span>
+          <svg class="btn-arrow" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Content Grid: Left 3D Map Pin Visual + 3 Hospital Branch Cards -->
+    <div class="branches-showcase-row">
+      <!-- 3D Perspective Map Pin Artwork on Left (as in reference image) -->
+      <div class="branches-pin-visual" aria-hidden="true">
+        <div class="pin-perspective-ground">
+          <!-- Wavy perspective road -->
+          <svg viewBox="0 0 260 220" fill="none" class="ground-road-svg">
+            <path d="M 0 160 C 60 160, 100 130, 160 100 C 200 80, 230 60, 260 50 L 260 90 C 220 105, 180 130, 120 165 C 60 200, 20 215, 0 220 Z" fill="rgba(16, 185, 129, 0.08)"/>
+            <path d="M 0 180 C 60 180, 110 145, 170 115" stroke="rgba(16, 185, 129, 0.25)" stroke-width="2" stroke-dasharray="8 6"/>
+          </svg>
+
+          <!-- Receding small pin markers -->
+          <div class="pin-marker mini-pin-1">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="#52a084">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+            </svg>
+          </div>
+          <div class="pin-marker mini-pin-2">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="#3b8c6f">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+            </svg>
+          </div>
+
+          <!-- Hero 3D Big Location Pin -->
+          <div class="hero-3d-pin">
+            <div class="pin-3d-body">
+              <svg viewBox="0 0 72 90" width="72" height="90" fill="none">
+                <defs>
+                  <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#3eb086" />
+                    <stop offset="50%" stop-color="#197a55" />
+                    <stop offset="100%" stop-color="#0a4830" />
+                  </linearGradient>
+                  <filter id="pinShadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#06321f" flood-opacity="0.35"/>
+                  </filter>
+                </defs>
+                <path d="M 36 4 C 18 4, 4 18, 4 36 C 4 56, 36 86, 36 86 C 36 86, 68 56, 68 36 C 68 18, 54 4, 36 4 Z" fill="url(#pinGrad)" filter="url(#pinShadow)"/>
+                <circle cx="36" cy="36" r="13" fill="#ffffff" opacity="0.95"/>
+                <circle cx="36" cy="36" r="7" fill="#0b4d32"/>
+              </svg>
+            </div>
+            <!-- Pin Shadow on ground -->
+            <div class="pin-ground-shadow"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Branch Cards Grid (Main, Misri Shah, DHA Phase 5) -->
+      <div class="branches-cards-grid">
+        @for (b of branches; track b.id; let idx = $index) {
+          <article class="branch-card" [id]="b.id">
+            <!-- Card Image Area -->
+            <div class="branch-img-box">
+              <img [src]="b.image" [alt]="b.name" class="branch-img" loading="lazy" />
+              <div class="branch-badge">{{ b.badge }}</div>
+              <div class="img-gradient-overlay"></div>
+            </div>
+
+            <!-- Card Bottom Body -->
+            <div class="branch-body">
+              <div class="branch-meta">
+                <div class="branch-title-row">
+                  <div class="branch-pin-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <h3 class="branch-name">{{ b.name }}</h3>
+                </div>
+                <p class="branch-area">{{ b.area }}</p>
+                <p class="branch-address">{{ b.address }}</p>
+
+                <div class="branch-details-row">
+                  <span class="detail-pill timing">
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    {{ b.timings }}
+                  </span>
+                </div>
+              </div>
+
+              <!-- Round Action Button with Arrow -->
+              <a [href]="b.mapsUrl" target="_blank" rel="noopener noreferrer" class="branch-arrow-btn" [attr.aria-label]="'Get directions to ' + b.name">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        }
+      </div>
+    </div>
+  </div>
+</section>

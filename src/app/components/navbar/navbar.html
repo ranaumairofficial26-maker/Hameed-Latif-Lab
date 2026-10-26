@@ -1,0 +1,89 @@
+<header class="site-header" [class.scrolled]="scrolled()">
+  <!-- ===== Top Bar ===== -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <ul class="topbar-info">
+        <li>
+          <a [href]="phoneHref" id="topbar-phone">{{ phone }}</a>
+        </li>
+        <li class="sep" aria-hidden="true"></li>
+        <li>
+          <a [href]="'mailto:' + email" id="topbar-email">{{ email }}</a>
+        </li>
+        <li class="sep sep-addr" aria-hidden="true"></li>
+        <li class="topbar-address">{{ address }}</li>
+      </ul>
+
+      <a href="#" class="btn-online" id="btn-online-reporting">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+          <polyline points="14 2 14 8 20 8" />
+          <line x1="16" y1="13" x2="8" y2="13" />
+          <line x1="16" y1="17" x2="8" y2="17" />
+        </svg>
+        <span>ONLINE REPORTING</span>
+        <svg class="arrow" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== Main Nav ===== -->
+  <nav class="mainnav" aria-label="Main navigation">
+    <div class="container mainnav-inner">
+      <a routerLink="/" class="brand" id="brand-logo" (click)="closeMobile()">
+        <img src="images/hl_emblem_clean.png" alt="Hameed Latif Hospital Laboratories emblem" class="brand-emblem" />
+        <span class="brand-text">
+          <span class="brand-line1">Hameed Latif</span>
+          <span class="brand-line2">Hospital Laboratories</span>
+        </span>
+      </a>
+
+      <ul class="nav-links" [class.open]="mobileOpen()">
+        @for (item of navItems; track item.label) {
+          <li class="nav-item" [class.has-children]="item.children" [class.dd-open]="openDropdown() === item.label">
+            @if (item.children) {
+              <button type="button" class="nav-link" [id]="'nav-' + item.label.toLowerCase().replace(' ', '-')" (click)="toggleDropdown(item.label)">
+                {{ item.label }}
+                <svg class="chev" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="6 9 12 15 18 9" />
+                </svg>
+              </button>
+              <ul class="dropdown">
+                @for (child of item.children; track child.label) {
+                  <li>
+                    <a [routerLink]="child.link" (click)="closeMobile()">{{ child.label }}</a>
+                  </li>
+                }
+              </ul>
+            } @else {
+              <a [routerLink]="item.link" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" [id]="'nav-' + item.label.toLowerCase()" (click)="closeMobile()">
+                {{ item.label }}
+              </a>
+            }
+          </li>
+        }
+        <li class="mobile-cta">
+          <a routerLink="/tests" class="btn-book" (click)="closeMobile()">Book a Test</a>
+        </li>
+      </ul>
+
+      <a routerLink="/tests" class="btn-book desktop-cta" id="btn-book-test">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+          <line x1="16" y1="2" x2="16" y2="6" />
+          <line x1="8" y1="2" x2="8" y2="6" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+          <path d="M9 16l2 2 4-4" />
+        </svg>
+        <span>Book a Test</span>
+      </a>
+
+      <button type="button" class="hamburger" [class.active]="mobileOpen()" id="btn-mobile-menu" aria-label="Toggle menu" (click)="toggleMobile()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
