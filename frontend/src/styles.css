@@ -1,0 +1,138 @@
+/* ===== Design Tokens ===== */
+:root {
+  --green-900: #083d27;
+  --green-800: #0b4d32;
+  --green-700: #116241;
+  --green-50: #eef6f1;
+  --gold-400: #f6bd3a;
+  --gold-500: #f0a81c;
+  --gold-600: #d98f0b;
+  --ink: #1d2a24;
+  --muted: #5d6b64;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --font-headline: 'Playfair Display', 'Libre Baskerville', Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: #f7f9f8;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Smooth Page Entrance Animation ===== */
+@keyframes smoothPageFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  animation: smoothPageFade 0.6s ease-out both;
+}
+
+@keyframes mainContentEntrance {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main {
+  flex: 1 0 auto;
+  animation: mainContentEntrance 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ===== Scroll-Driven Reveal Animations (Neeche se Upar Smooth Slide-in) ===== */
+.scroll-reveal,
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(42px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.scroll-reveal.is-revealed,
+.reveal-on-scroll.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Directional and Scale Variants */
+.reveal-scale {
+  opacity: 0;
+  transform: scale(0.95) translateY(30px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-scale.is-revealed {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-left.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal-right {
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal-right.is-revealed {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Cascading / Stagger Delays for Grid Children */
+.stagger-1 { transition-delay: 0.06s; }
+.stagger-2 { transition-delay: 0.14s; }
+.stagger-3 { transition-delay: 0.22s; }
+.stagger-4 { transition-delay: 0.30s; }
+.stagger-5 { transition-delay: 0.38s; }
+.stagger-6 { transition-delay: 0.46s; }
+

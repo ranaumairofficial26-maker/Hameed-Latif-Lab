@@ -1,0 +1,8661 @@
+[
+  {
+    "id": 1,
+    "name": "HL A Tissue Typing Class I & Class II ( Donor)",
+    "time": "AFTER 7 DAYS",
+    "price": 47880,
+    "keywords": [
+      "hl",
+      "tissue",
+      "typing",
+      "class",
+      "ii",
+      "donor"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "HL A Tissue Typing Class I & Class II ( patient)",
+    "time": "AFTER 7 DAYS",
+    "price": 47880,
+    "keywords": [
+      "hl",
+      "tissue",
+      "typing",
+      "class",
+      "ii",
+      "patient"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "HLA-B27 Allele Detection by PCR",
+    "time": "AFTER 10 DAYS",
+    "price": 16650,
+    "keywords": [
+      "hla",
+      "b27",
+      "allele",
+      "detection",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Quantiferon TB Gold Plus / TB-IGRA",
+    "time": "AFTER 7 DAYS",
+    "price": 12040,
+    "keywords": [
+      "quantiferon",
+      "tb",
+      "gold",
+      "plus",
+      "igra"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Skin Scrapping For Fungus",
+    "time": "After 48 Hours",
+    "price": 950,
+    "keywords": [
+      "skin",
+      "scrapping",
+      "for",
+      "fungus"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "17-Hydroxy Progesterone (OHP)",
+    "time": "AFTER 9 DAYS",
+    "price": 6850,
+    "keywords": [
+      "17",
+      "hydroxy",
+      "progesterone",
+      "ohp"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "17-Ketosteroids (24 Hrs Urine)",
+    "time": "After 72 Hours",
+    "price": 2050,
+    "keywords": [
+      "17",
+      "ketosteroids",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "24 Hours Urinary Specific Gravity",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "24",
+      "hours",
+      "urinary",
+      "specific",
+      "gravity"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "24 hrs Urinary Potassium",
+    "time": "After 24 Hours",
+    "price": 1300,
+    "keywords": [
+      "24",
+      "hrs",
+      "urinary",
+      "potassium"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "24 hrs Urinary Sodium",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "24",
+      "hrs",
+      "urinary",
+      "sodium"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "25-Hydroxy Vit-D3 Level",
+    "time": "After 48 Hours",
+    "price": 4200,
+    "keywords": [
+      "25",
+      "hydroxy",
+      "vit",
+      "d3",
+      "level"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "5 HIA A (24 Hrs Urine)",
+    "time": "After 72 Hours",
+    "price": 5500,
+    "keywords": [
+      "hia",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "** IL37 Anti VGKC Associated Protein",
+    "time": "AFTER 7 DAYS",
+    "price": 9150,
+    "keywords": [
+      "il37",
+      "anti",
+      "vgkc",
+      "associated",
+      "protein"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "**Antibodies Related to Autoimmune Hepatitis",
+    "time": "AFTER 7 DAYS",
+    "price": 8850,
+    "keywords": [
+      "antibodies",
+      "related",
+      "to",
+      "autoimmune",
+      "hepatitis"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "**CMV IgG (Cytomegalovirus)",
+    "time": "After 72 Hours",
+    "price": 3100,
+    "keywords": [
+      "cmv",
+      "igg",
+      "cytomegalovirus"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "**CMV IgM (Cytomegalovirus)",
+    "time": "After 72 Hours",
+    "price": 3100,
+    "keywords": [
+      "cmv",
+      "igm",
+      "cytomegalovirus"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "**Herpes (HSV 1 & 2) Ig G",
+    "time": "After 72 Hours",
+    "price": 2650,
+    "keywords": [
+      "herpes",
+      "hsv",
+      "ig",
+      "hsv 1 & 2"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "**Herpes (HSV 1 & 2) Ig M",
+    "time": "After 72 Hours",
+    "price": 2650,
+    "keywords": [
+      "herpes",
+      "hsv",
+      "ig",
+      "hsv 1 & 2"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "**Rubella Ig G ELISA",
+    "time": "After 72 Hours",
+    "price": 2900,
+    "keywords": [
+      "rubella",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "**Rubella Ig M ELISA",
+    "time": "After 72 Hours",
+    "price": 2900,
+    "keywords": [
+      "rubella",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "** Toxoplasma Ig G ELISA",
+    "time": "After 72 Hours",
+    "price": 2800,
+    "keywords": [
+      "toxoplasma",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "** Toxoplasma Ig M ELISA",
+    "time": "After 72 Hours",
+    "price": 2800,
+    "keywords": [
+      "toxoplasma",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "3gAllergy Specfic igE Universal Food Allergens Profile",
+    "time": "AFTER",
+    "price": 8900,
+    "keywords": [
+      "3gallergy",
+      "specfic",
+      "ige",
+      "universal",
+      "food",
+      "allergens",
+      "profile"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "3gAllergy Specfic igE Universal Inhalant Allergens Profile",
+    "time": "AFTER FIVE DAYS",
+    "price": 8900,
+    "keywords": [
+      "3gallergy",
+      "specfic",
+      "ige",
+      "universal",
+      "inhalant",
+      "allergens",
+      "profile"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "A/G Ratio",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "ratio"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Abdominal Fluid For C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Abdominal Fluid For Malignant Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2500,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for",
+      "malignant",
+      "cytology"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Abdominal Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Abdominal Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Abdominal Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Abdominal Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 650,
+    "keywords": [
+      "abdominal",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "ABGS (Arterial Blood Gases)",
+    "time": "After 24 Hours",
+    "price": 2150,
+    "keywords": [
+      "abgs",
+      "arterial",
+      "blood",
+      "gases",
+      "arterial blood gases"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Absolute Eosinophil Count",
+    "time": "After 8 Hours",
+    "price": 600,
+    "keywords": [
+      "absolute",
+      "eosinophil",
+      "count"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Absolute Neutrophil Count",
+    "time": "After 8 Hours",
+    "price": 600,
+    "keywords": [
+      "absolute",
+      "neutrophil",
+      "count"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Acetaminophen level",
+    "time": "After 22 Days",
+    "price": 31700,
+    "keywords": [
+      "acetaminophen",
+      "level"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Acetyl Choline Receptor Antibody (AChR Abs)",
+    "time": "AFTER ONE WEEK",
+    "price": 17250,
+    "keywords": [
+      "acetyl",
+      "choline",
+      "receptor",
+      "antibody",
+      "achr",
+      "abs",
+      "achr abs"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "ACTH (Adrenocorticotropic Hormone)",
+    "time": "AFTER FOUR DAYS",
+    "price": 4000,
+    "keywords": [
+      "acth",
+      "adrenocorticotropic",
+      "hormone",
+      "adrenocorticotropic hormone"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Acute Leukemia Immunophenotyping by Flow Cytometry",
+    "time": "AFTER ONE WEEK",
+    "price": 93500,
+    "keywords": [
+      "acute",
+      "leukemia",
+      "immunophenotyping",
+      "by",
+      "flow",
+      "cytometry"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "ADAMTS13 Activity",
+    "time": "After 72 Hours",
+    "price": 42600,
+    "keywords": [
+      "adamts13",
+      "activity"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Adenosine Deaminase (ADA-CSF)",
+    "time": "After 48 Hours",
+    "price": 5700,
+    "keywords": [
+      "adenosine",
+      "deaminase",
+      "ada",
+      "csf",
+      "ada-csf"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Adenosine Deaminase (ADA-FLUID)",
+    "time": "After 48 Hours",
+    "price": 5700,
+    "keywords": [
+      "adenosine",
+      "deaminase",
+      "ada",
+      "fluid",
+      "ada-fluid"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Adenosine Deaminase (ADA-Serum)",
+    "time": "After 48 Hours",
+    "price": 5700,
+    "keywords": [
+      "adenosine",
+      "deaminase",
+      "ada",
+      "serum",
+      "ada-serum"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "AE1/AE3 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "ae1",
+      "ae3",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 6350,
+    "keywords": [
+      "afb"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "AF P Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "af",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Albumin (Qualitative - Urine)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "albumin",
+      "qualitative",
+      "urine",
+      "qualitative - urine"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Albumin (serum)",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "albumin",
+      "serum"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Albumin / Creatinine Ratio.",
+    "time": "NEX T DAY",
+    "price": 1870,
+    "keywords": [
+      "albumin",
+      "creatinine",
+      "ratio"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Albumin-CSF",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "albumin",
+      "csf"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Aldolase(Serum)",
+    "time": "After 48 Hours",
+    "price": 3100,
+    "keywords": [
+      "aldolase",
+      "serum"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Aldosterone Level (Serum)",
+    "time": "After 48 Hours",
+    "price": 4900,
+    "keywords": [
+      "aldosterone",
+      "level",
+      "serum"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Aldosterone/Direct Renin Ratio",
+    "time": "After 48 Hours",
+    "price": 9900,
+    "keywords": [
+      "aldosterone",
+      "direct",
+      "renin",
+      "ratio"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "ALK Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "alk",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Alkaline Phosphatase (ALP)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "alkaline",
+      "phosphatase",
+      "alp"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Alpha Anti Trypsin (Blood)",
+    "time": "After 72 Hours",
+    "price": 2850,
+    "keywords": [
+      "alpha",
+      "anti",
+      "trypsin",
+      "blood"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Alpha Fetoprotein (AFP)",
+    "time": "After 48 Hours",
+    "price": 3650,
+    "keywords": [
+      "alpha",
+      "fetoprotein",
+      "afp"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Ammonia (NH3)",
+    "time": "After 24 Hours",
+    "price": 2400,
+    "keywords": [
+      "ammonia",
+      "nh3"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Amylase",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "amylase"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Amylase (24Hrs Urine)",
+    "time": "After 48 Hours",
+    "price": 2400,
+    "keywords": [
+      "amylase",
+      "24hrs",
+      "urine",
+      "24hrs urine"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Amylase (Fluid)",
+    "time": "After 5 Hours",
+    "price": 2400,
+    "keywords": [
+      "amylase",
+      "fluid"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "AN A Profile (Immunofluorescence)",
+    "time": "AFTER ONE WEEK",
+    "price": 7000,
+    "keywords": [
+      "an",
+      "profile",
+      "immunofluorescence"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Angiotensin Converting Enzyme (ACE) Level",
+    "time": "After 72 Hours",
+    "price": 4250,
+    "keywords": [
+      "angiotensin",
+      "converting",
+      "enzyme",
+      "ace",
+      "level"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Anion Gap (Serum)",
+    "time": "After 72 Hours",
+    "price": 1700,
+    "keywords": [
+      "anion",
+      "gap",
+      "serum"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Anti Aquaporin 4 Ab by Serum (NMO)",
+    "time": "AFTER 7 DAYS",
+    "price": 10500,
+    "keywords": [
+      "anti",
+      "aquaporin",
+      "ab",
+      "by",
+      "serum",
+      "nmo"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Anti Aquaporin 4 Ab CSF (NMO)",
+    "time": "AFTER 7 DAYS",
+    "price": 10500,
+    "keywords": [
+      "anti",
+      "aquaporin",
+      "ab",
+      "csf",
+      "nmo"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Anti Body Screening",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "anti",
+      "body",
+      "screening"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Anti Cardiolipin IgG",
+    "time": "After 48 Hours",
+    "price": 5500,
+    "keywords": [
+      "anti",
+      "cardiolipin",
+      "igg"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Anti Cardiolipin IgM",
+    "time": "After 48 Hours",
+    "price": 5500,
+    "keywords": [
+      "anti",
+      "cardiolipin",
+      "igm"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Anti CC P (Cyclic Citrullinated Peptide)",
+    "time": "After 48 Hours",
+    "price": 4400,
+    "keywords": [
+      "anti",
+      "cc",
+      "cyclic",
+      "citrullinated",
+      "peptide",
+      "cyclic citrullinated peptide"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Anti Centromere Antibodies",
+    "time": "After 72 Hours",
+    "price": 2300,
+    "keywords": [
+      "anti",
+      "centromere",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Anti ds DN A (Quantitative)",
+    "time": "AFTER FOUR DAYS",
+    "price": 8000,
+    "keywords": [
+      "anti",
+      "ds",
+      "dn",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Anti Endomysial IgA",
+    "time": "AFTER 9 DAYS",
+    "price": 4300,
+    "keywords": [
+      "anti",
+      "endomysial",
+      "iga"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Anti Endomysial IgG Abs",
+    "time": "AFTER FOUR DAYS",
+    "price": 4300,
+    "keywords": [
+      "anti",
+      "endomysial",
+      "igg",
+      "abs"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Anti Epstein Barr Virus (EBV) Ig G",
+    "time": "AFTER FIVE DAYS",
+    "price": 4200,
+    "keywords": [
+      "anti",
+      "epstein",
+      "barr",
+      "virus",
+      "ebv",
+      "ig"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Anti Epstein Barr Virus (EBV) Ig M",
+    "time": "AFTER FIVE DAYS",
+    "price": 4200,
+    "keywords": [
+      "anti",
+      "epstein",
+      "barr",
+      "virus",
+      "ebv",
+      "ig"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Anti Gliadin IgA",
+    "time": "After 72 Hours",
+    "price": 3900,
+    "keywords": [
+      "anti",
+      "gliadin",
+      "iga"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Anti Gliadin IgG",
+    "time": "After 72 Hours",
+    "price": 3900,
+    "keywords": [
+      "anti",
+      "gliadin",
+      "igg"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Anti H Pylori Screening",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "anti",
+      "pylori",
+      "screening"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Anti H AV IgG",
+    "time": "After 72 Hours",
+    "price": 3800,
+    "keywords": [
+      "anti",
+      "av",
+      "igg"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Anti H AV IgM",
+    "time": "After 48 Hours",
+    "price": 3800,
+    "keywords": [
+      "anti",
+      "av",
+      "igm"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Anti HBc ( Total)",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "anti",
+      "hbc",
+      "total"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Anti HBc IgM",
+    "time": "After 72 Hours",
+    "price": 4300,
+    "keywords": [
+      "anti",
+      "hbc",
+      "igm"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Anti HBe",
+    "time": "After 72 Hours",
+    "price": 4000,
+    "keywords": [
+      "anti",
+      "hbe"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Anti HBs Antibody",
+    "time": "After 72 Hours",
+    "price": 2900,
+    "keywords": [
+      "anti",
+      "hbs",
+      "antibody"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Anti HCV (ELISA)",
+    "time": "After 24 Hours",
+    "price": 3200,
+    "keywords": [
+      "anti",
+      "hcv",
+      "elisa"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Anti HCV Screening",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "anti",
+      "hcv",
+      "screening"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Anti HDV",
+    "time": "AFTER ONE WEEK",
+    "price": 4600,
+    "keywords": [
+      "anti",
+      "hdv"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Anti HEV IgG",
+    "time": "After 48 Hours",
+    "price": 4200,
+    "keywords": [
+      "anti",
+      "hev",
+      "igg"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Anti HEV IgM",
+    "time": "After 48 Hours",
+    "price": 4200,
+    "keywords": [
+      "anti",
+      "hev",
+      "igm"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Anti HIV - 1 & 2 (ELISA)",
+    "time": "After 48 Hours",
+    "price": 3900,
+    "keywords": [
+      "anti",
+      "hiv",
+      "elisa"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Anti HIV - 1 & 2 Screening",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "anti",
+      "hiv",
+      "screening"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Anti Islet Cells Antibodies",
+    "time": "After 72 Hours",
+    "price": 10300,
+    "keywords": [
+      "anti",
+      "islet",
+      "cells",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Anti Leptospiral Ig G",
+    "time": "AFTER 8 DAYS",
+    "price": 4500,
+    "keywords": [
+      "anti",
+      "leptospiral",
+      "ig"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Anti Leptospiral Ig M",
+    "time": "AFTER 8 DAYS",
+    "price": 4500,
+    "keywords": [
+      "anti",
+      "leptospiral",
+      "ig"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Anti LKM (Anti Liver Kidney Microsomal Antibody)",
+    "time": "After 72 Hours",
+    "price": 3700,
+    "keywords": [
+      "anti",
+      "lkm",
+      "liver",
+      "kidney",
+      "microsomal",
+      "antibody",
+      "anti liver kidney microsomal antibody"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Anti MOG Antibody",
+    "time": "AFTER 7 DAYS",
+    "price": 8800,
+    "keywords": [
+      "anti",
+      "mog",
+      "antibody"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Anti Mullerian Hormone (AMH)",
+    "time": "After 48 Hours",
+    "price": 7700,
+    "keywords": [
+      "anti",
+      "mullerian",
+      "hormone",
+      "amh"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Anti MuSK Antibodies",
+    "time": "AFTER",
+    "price": 19700,
+    "keywords": [
+      "anti",
+      "musk",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Anti Neuronal Profile",
+    "time": "AFTER 9 DAYS",
+    "price": 8500,
+    "keywords": [
+      "anti",
+      "neuronal",
+      "profile"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Anti Nuclear Antibody (ANA) Quantitative",
+    "time": "After 48 Hours",
+    "price": 3900,
+    "keywords": [
+      "anti",
+      "nuclear",
+      "antibody",
+      "ana",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Anti Parvovirus B19 Ig G",
+    "time": "After 72 Hours",
+    "price": 4500,
+    "keywords": [
+      "anti",
+      "parvovirus",
+      "b19",
+      "ig"
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Anti Parvovirus B19 Ig M",
+    "time": "After 72 Hours",
+    "price": 4500,
+    "keywords": [
+      "anti",
+      "parvovirus",
+      "b19",
+      "ig"
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Anti Phospholipid IgG",
+    "time": "After 72 Hours",
+    "price": 5000,
+    "keywords": [
+      "anti",
+      "phospholipid",
+      "igg"
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Anti Phospholipid IgM",
+    "time": "After 72 Hours",
+    "price": 5000,
+    "keywords": [
+      "anti",
+      "phospholipid",
+      "igm"
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Anti PLA2R ( Phospholipase A 2 receptors) IgG",
+    "time": "AFTER",
+    "price": 7400,
+    "keywords": [
+      "anti",
+      "pla2r",
+      "phospholipase",
+      "receptors",
+      "igg",
+      "phospholipase a 2 receptors"
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Anti Reticular Antibodies",
+    "time": "After 48 Hours",
+    "price": 2100,
+    "keywords": [
+      "anti",
+      "reticular",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Anti Scl-70",
+    "time": "After 72 Hours",
+    "price": 3400,
+    "keywords": [
+      "anti",
+      "scl",
+      "70"
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Anti Sperm Antibodies",
+    "time": "AFTER 10 DAYS",
+    "price": 4400,
+    "keywords": [
+      "anti",
+      "sperm",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Anti Streptolysine O Titre (ASOT)",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "anti",
+      "streptolysine",
+      "titre",
+      "asot"
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Anti Thrombin",
+    "time": "AFTER",
+    "price": 6900,
+    "keywords": [
+      "anti",
+      "thrombin"
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Anti Tissue Transglutaminase IgA",
+    "time": "After 72 Hours",
+    "price": 3100,
+    "keywords": [
+      "anti",
+      "tissue",
+      "transglutaminase",
+      "iga"
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Anti Tissue Transglutaminase IgG",
+    "time": "After 72 Hours",
+    "price": 3100,
+    "keywords": [
+      "anti",
+      "tissue",
+      "transglutaminase",
+      "igg"
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Anti TSH Receptor Antibodies (TRAB)",
+    "time": "AFTER 7 DAYS",
+    "price": 4800,
+    "keywords": [
+      "anti",
+      "tsh",
+      "receptor",
+      "antibodies",
+      "trab"
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Anti-GBM",
+    "time": "AFTER",
+    "price": 4450,
+    "keywords": [
+      "anti",
+      "gbm"
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Apolipoprotein B",
+    "time": "After 48 Hours",
+    "price": 2300,
+    "keywords": [
+      "apolipoprotein"
+    ]
+  },
+  {
+    "id": 116,
+    "name": "AP T Test",
+    "time": "After 8 Hours",
+    "price": 1300,
+    "keywords": [
+      "ap",
+      "test"
+    ]
+  },
+  {
+    "id": 117,
+    "name": "APT T (Activated Partial Thromboplastin Time)",
+    "time": "After 8 Hours",
+    "price": 1400,
+    "keywords": [
+      "apt",
+      "activated",
+      "partial",
+      "thromboplastin",
+      "time",
+      "activated partial thromboplastin time"
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Ascitic Fluid C/E",
+    "time": "After 12 Hours",
+    "price": 2900,
+    "keywords": [
+      "ascitic",
+      "fluid"
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Ascitic Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "ascitic",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Ascitic Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 6350,
+    "keywords": [
+      "ascitic",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Ascitic Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "ascitic",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Ascitic Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "ascitic",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Ascitic Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "ascitic",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Aspergillius Specific IgG",
+    "time": "AFTER 10 DAYS",
+    "price": 9800,
+    "keywords": [
+      "aspergillius",
+      "specific",
+      "igg"
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Aspirate For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "aspirate",
+      "for"
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Autoimmune Encephilitis Antibodies Profile (CSF)",
+    "time": "AFTER 7 DAYS",
+    "price": 28450,
+    "keywords": [
+      "autoimmune",
+      "encephilitis",
+      "antibodies",
+      "profile",
+      "csf"
+    ]
+  },
+  {
+    "id": 127,
+    "name": "Autoimmune Encephilitis Antibodies Profile (Serum)",
+    "time": "AFTER 7 DAYS",
+    "price": 28450,
+    "keywords": [
+      "autoimmune",
+      "encephilitis",
+      "antibodies",
+      "profile",
+      "serum"
+    ]
+  },
+  {
+    "id": 128,
+    "name": "B- catenin Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "catenin",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 129,
+    "name": "B2-Microglobulin",
+    "time": "After 72 Hours",
+    "price": 4900,
+    "keywords": [
+      "b2",
+      "microglobulin"
+    ]
+  },
+  {
+    "id": 130,
+    "name": "BCL2 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "bcl2",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 131,
+    "name": "BCR-AB L by PCR",
+    "time": "AFTER 10 DAYS",
+    "price": 25000,
+    "keywords": [
+      "bcr",
+      "ab",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 132,
+    "name": "Bence Jones Protein (Urine)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "bence",
+      "jones",
+      "protein",
+      "urine"
+    ]
+  },
+  {
+    "id": 133,
+    "name": "Benzodiazepines (Urine)",
+    "time": "After 72 Hours",
+    "price": 2200,
+    "keywords": [
+      "benzodiazepines",
+      "urine"
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Beta 2 Glycoprotein Ig G",
+    "time": "After 72 Hours",
+    "price": 3450,
+    "keywords": [
+      "beta",
+      "glycoprotein",
+      "ig"
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Beta 2 Glycoprotein Ig M",
+    "time": "After 72 Hours",
+    "price": 3450,
+    "keywords": [
+      "beta",
+      "glycoprotein",
+      "ig"
+    ]
+  },
+  {
+    "id": 136,
+    "name": "Beta D Glucan",
+    "time": "AFTER 10 DAYS",
+    "price": 10500,
+    "keywords": [
+      "beta",
+      "glucan"
+    ]
+  },
+  {
+    "id": 137,
+    "name": "Beta HCG (Serum)",
+    "time": "After 24 Hours",
+    "price": 3000,
+    "keywords": [
+      "beta",
+      "hcg",
+      "serum"
+    ]
+  },
+  {
+    "id": 138,
+    "name": "Beta-HCG (Urine)",
+    "time": "After 24 Hours",
+    "price": 3000,
+    "keywords": [
+      "beta",
+      "hcg",
+      "urine"
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Bethesda Assay (Factor VIII Inhibitor Quantitative)",
+    "time": "AFTER ONE WEEK",
+    "price": 9200,
+    "keywords": [
+      "bethesda",
+      "assay",
+      "factor",
+      "viii",
+      "inhibitor",
+      "quantitative",
+      "factor viii inhibitor quantitative"
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Bicarbonates (HCO3)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "bicarbonates",
+      "hco3"
+    ]
+  },
+  {
+    "id": 141,
+    "name": "Bile Salt",
+    "time": "After 72 Hours",
+    "price": 1400,
+    "keywords": [
+      "bile",
+      "salt"
+    ]
+  },
+  {
+    "id": 142,
+    "name": "Bilirubin (Direct + Indirect)",
+    "time": "After 24 Hours",
+    "price": 1300,
+    "keywords": [
+      "bilirubin",
+      "direct",
+      "indirect",
+      "direct + indirect"
+    ]
+  },
+  {
+    "id": 143,
+    "name": "Bilirubin (Fluid)",
+    "time": "After 24 Hours",
+    "price": 750,
+    "keywords": [
+      "bilirubin",
+      "fluid"
+    ]
+  },
+  {
+    "id": 144,
+    "name": "Bilirubin Direct",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "bilirubin",
+      "direct"
+    ]
+  },
+  {
+    "id": 145,
+    "name": "Bilirubin Indirect",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "bilirubin",
+      "indirect"
+    ]
+  },
+  {
+    "id": 146,
+    "name": "Bilirubin Total",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "bilirubin",
+      "total"
+    ]
+  },
+  {
+    "id": 147,
+    "name": "BK polyomavirus (Quantitative)",
+    "time": "AFTER",
+    "price": 19600,
+    "keywords": [
+      "bk",
+      "polyomavirus",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Bleeding Time",
+    "time": "After 8 Hours",
+    "price": 700,
+    "keywords": [
+      "bleeding",
+      "time"
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Block For Review",
+    "time": "AFTER ONE WEEK",
+    "price": 3900,
+    "keywords": [
+      "block",
+      "for",
+      "review"
+    ]
+  },
+  {
+    "id": 150,
+    "name": "Block For Review With IHC",
+    "time": "AFTER ONE WEEK",
+    "price": 11900,
+    "keywords": [
+      "block",
+      "for",
+      "review",
+      "with",
+      "ihc"
+    ]
+  },
+  {
+    "id": 151,
+    "name": "Blood Aerobic for C/S",
+    "time": "AFTER 8 DAYS",
+    "price": 3300,
+    "keywords": [
+      "blood",
+      "aerobic",
+      "for"
+    ]
+  },
+  {
+    "id": 152,
+    "name": "Blood Alcohol Concentration",
+    "time": "AFTER FOUR DAYS",
+    "price": 3500,
+    "keywords": [
+      "blood",
+      "alcohol",
+      "concentration"
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Blood Anaerobic for C/S",
+    "time": "AFTER 8 DAYS",
+    "price": 3400,
+    "keywords": [
+      "blood",
+      "anaerobic",
+      "for"
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Blood Complete Examination",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "blood",
+      "complete",
+      "examination",
+      "cbc",
+      "blood count",
+      "complete blood"
+    ]
+  },
+  {
+    "id": 155,
+    "name": "Blood Complete Examination with peripheral smear (SKMH)",
+    "time": "After 8 Hours",
+    "price": 2050,
+    "keywords": [
+      "blood",
+      "complete",
+      "examination",
+      "with",
+      "peripheral",
+      "smear",
+      "skmh",
+      "cbc",
+      "blood count",
+      "complete blood"
+    ]
+  },
+  {
+    "id": 156,
+    "name": "Blood Gases+ S\\Elect + HB",
+    "time": "After 24 Hours",
+    "price": 2600,
+    "keywords": [
+      "blood",
+      "gases",
+      "elect",
+      "hb"
+    ]
+  },
+  {
+    "id": 157,
+    "name": "Blood Glucose (Fasting)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "blood",
+      "glucose",
+      "fasting",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 158,
+    "name": "Blood Glucose (Random)",
+    "time": "After 6 Hours",
+    "price": 600,
+    "keywords": [
+      "blood",
+      "glucose",
+      "random",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 159,
+    "name": "Blood Group & Rh Factor",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "blood",
+      "group",
+      "rh",
+      "factor"
+    ]
+  },
+  {
+    "id": 160,
+    "name": "Blood Ketone Levels",
+    "time": "After 72 Hours",
+    "price": 1200,
+    "keywords": [
+      "blood",
+      "ketone",
+      "levels"
+    ]
+  },
+  {
+    "id": 161,
+    "name": "Body Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "body",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 162,
+    "name": "Body Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "body",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 163,
+    "name": "Body Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 400,
+    "keywords": [
+      "body",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Bone For C/S",
+    "time": "AFTER 7 DAYS",
+    "price": 3000,
+    "keywords": [
+      "bone",
+      "for"
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Bone Marrow (Slides For Review)",
+    "time": "AFTER FIVE DAYS",
+    "price": 4000,
+    "keywords": [
+      "bone",
+      "marrow",
+      "slides",
+      "for",
+      "review",
+      "slides for review"
+    ]
+  },
+  {
+    "id": 166,
+    "name": "Bone Marrow Aspirate & Trephine Biopsy (Procedure Only)",
+    "time": "After 24 Hours",
+    "price": 13200,
+    "keywords": [
+      "bone",
+      "marrow",
+      "aspirate",
+      "trephine",
+      "biopsy",
+      "procedure",
+      "only",
+      "procedure only"
+    ]
+  },
+  {
+    "id": 167,
+    "name": "Bone Marrow Aspirate for C/S",
+    "time": "AFTER 7 DAYS",
+    "price": 3000,
+    "keywords": [
+      "bone",
+      "marrow",
+      "aspirate",
+      "for"
+    ]
+  },
+  {
+    "id": 168,
+    "name": "Bone Marrow Biopsy Procedure and Reporting",
+    "time": "AFTER 7 DAYS",
+    "price": 16500,
+    "keywords": [
+      "bone",
+      "marrow",
+      "biopsy",
+      "procedure",
+      "and",
+      "reporting"
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Bone Marrow comprehensive, Aspirate and terphine biopsy",
+    "time": "AFTER ONE WEEK",
+    "price": 23000,
+    "keywords": [
+      "bone",
+      "marrow",
+      "comprehensive",
+      "aspirate",
+      "and",
+      "terphine",
+      "biopsy"
+    ]
+  },
+  {
+    "id": 170,
+    "name": "Bone Marrow Slide & Block",
+    "time": "AFTER 7 DAYS",
+    "price": 1800,
+    "keywords": [
+      "bone",
+      "marrow",
+      "slide",
+      "block"
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Bronchial washing ( BAL) For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "bronchial",
+      "washing",
+      "bal",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 172,
+    "name": "Bronchial",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "bronchial"
+    ]
+  },
+  {
+    "id": 173,
+    "name": "Bronchial",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "bronchial"
+    ]
+  },
+  {
+    "id": 174,
+    "name": "Bronchial",
+    "time": "AFTER 7 DAYS",
+    "price": 3000,
+    "keywords": [
+      "bronchial"
+    ]
+  },
+  {
+    "id": 175,
+    "name": "Bronchial",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "bronchial"
+    ]
+  },
+  {
+    "id": 176,
+    "name": "Bronchial",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "bronchial"
+    ]
+  },
+  {
+    "id": 177,
+    "name": "Bronchoalveolar Lavage C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "bronchoalveolar",
+      "lavage"
+    ]
+  },
+  {
+    "id": 178,
+    "name": "Brucella IgG",
+    "time": "AFTER FOUR DAYS",
+    "price": 2100,
+    "keywords": [
+      "brucella",
+      "igg"
+    ]
+  },
+  {
+    "id": 179,
+    "name": "Brucella IgM",
+    "time": "AFTER FOUR DAYS",
+    "price": 2100,
+    "keywords": [
+      "brucella",
+      "igm"
+    ]
+  },
+  {
+    "id": 180,
+    "name": "BUN (Blood Urea Nitrogen)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "bun",
+      "blood",
+      "urea",
+      "nitrogen",
+      "blood urea nitrogen"
+    ]
+  },
+  {
+    "id": 181,
+    "name": "BUN / Creatinine Ratio",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "bun",
+      "creatinine",
+      "ratio"
+    ]
+  },
+  {
+    "id": 182,
+    "name": "C- ANCA",
+    "time": "After 72 Hours",
+    "price": 8000,
+    "keywords": [
+      "anca"
+    ]
+  },
+  {
+    "id": 183,
+    "name": "C Peptide Level",
+    "time": "After 72 Hours",
+    "price": 4400,
+    "keywords": [
+      "peptide",
+      "level"
+    ]
+  },
+  {
+    "id": 184,
+    "name": "C2 Monitoring",
+    "time": "After 48 Hours",
+    "price": 8100,
+    "keywords": [
+      "c2",
+      "monitoring"
+    ]
+  },
+  {
+    "id": 185,
+    "name": "C3 (Complement 3 Level)",
+    "time": "After 48 Hours",
+    "price": 2700,
+    "keywords": [
+      "c3",
+      "complement",
+      "level",
+      "complement 3 level"
+    ]
+  },
+  {
+    "id": 186,
+    "name": "C4 (Complement Level 4)",
+    "time": "After 48 Hours",
+    "price": 2700,
+    "keywords": [
+      "c4",
+      "complement",
+      "level",
+      "complement level 4"
+    ]
+  },
+  {
+    "id": 187,
+    "name": "C A 125",
+    "time": "After 48 Hours",
+    "price": 5000,
+    "keywords": [
+      "125"
+    ]
+  },
+  {
+    "id": 188,
+    "name": "C A 15-3",
+    "time": "After 72 Hours",
+    "price": 5100,
+    "keywords": [
+      "15"
+    ]
+  },
+  {
+    "id": 189,
+    "name": "CA-19-9",
+    "time": "After 48 Hours",
+    "price": 5800,
+    "keywords": [
+      "ca",
+      "19"
+    ]
+  },
+  {
+    "id": 190,
+    "name": "CALCI TONIN",
+    "time": "AFTER FOUR DAYS",
+    "price": 12100,
+    "keywords": [
+      "calci",
+      "tonin"
+    ]
+  },
+  {
+    "id": 191,
+    "name": "Calcium (Fluid)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "calcium",
+      "fluid"
+    ]
+  },
+  {
+    "id": 192,
+    "name": "Calcium Urine (24 hrs)",
+    "time": "After 48 Hours",
+    "price": 1000,
+    "keywords": [
+      "calcium",
+      "urine",
+      "24",
+      "hrs",
+      "24 hrs"
+    ]
+  },
+  {
+    "id": 193,
+    "name": "Calcium Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "calcium",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 194,
+    "name": "Calcium/Creatinine Ratio",
+    "time": "After 48 Hours",
+    "price": 3000,
+    "keywords": [
+      "calcium",
+      "creatinine",
+      "ratio"
+    ]
+  },
+  {
+    "id": 195,
+    "name": "Caldasmon-IHC",
+    "time": "AFTER FIVE DAYS",
+    "price": 2900,
+    "keywords": [
+      "caldasmon",
+      "ihc"
+    ]
+  },
+  {
+    "id": 196,
+    "name": "Calprotectin (Stool)",
+    "time": "AFTER FOUR DAYS",
+    "price": 5700,
+    "keywords": [
+      "calprotectin",
+      "stool"
+    ]
+  },
+  {
+    "id": 197,
+    "name": "CALR Mutation (Exon 9 Mutation)",
+    "time": "AFTER FOUR WEEKS",
+    "price": 28500,
+    "keywords": [
+      "calr",
+      "mutation",
+      "exon",
+      "exon 9 mutation"
+    ]
+  },
+  {
+    "id": 198,
+    "name": "Cannabinoids (Urine)",
+    "time": "After 72 Hours",
+    "price": 2000,
+    "keywords": [
+      "cannabinoids",
+      "urine"
+    ]
+  },
+  {
+    "id": 199,
+    "name": "Carbamazepine ( Tegretol)",
+    "time": "After 72 Hours",
+    "price": 2600,
+    "keywords": [
+      "carbamazepine",
+      "tegretol"
+    ]
+  },
+  {
+    "id": 200,
+    "name": "Cardiac Enzymes",
+    "time": "After 24 Hours",
+    "price": 3500,
+    "keywords": [
+      "cardiac",
+      "enzymes"
+    ]
+  },
+  {
+    "id": 201,
+    "name": "Catheter Tip For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "catheter",
+      "tip",
+      "for"
+    ]
+  },
+  {
+    "id": 202,
+    "name": "CBC For (Dengue)",
+    "time": "After 8 Hours",
+    "price": 90,
+    "keywords": [
+      "cbc",
+      "for",
+      "dengue"
+    ]
+  },
+  {
+    "id": 203,
+    "name": "CD-10 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "10",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 204,
+    "name": "CD- 117 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "117",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 205,
+    "name": "CD-138 Immunohistochemistry",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "138",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 206,
+    "name": "CD-15 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "15",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 207,
+    "name": "CD-19 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "19",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 208,
+    "name": "CD-2 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 209,
+    "name": "CD-20 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "20",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 210,
+    "name": "CD20 S TATUS FC15",
+    "time": "AFTER FOUR DAYS",
+    "price": 17600,
+    "keywords": [
+      "cd20",
+      "tatus",
+      "fc15"
+    ]
+  },
+  {
+    "id": 211,
+    "name": "CD-3 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 212,
+    "name": "CD-30 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "30",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 213,
+    "name": "CD-34 Immunohistochemistry",
+    "time": "AFTER 10 DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "34",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 214,
+    "name": "CD-38 Immunohistochemistry",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "38",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 215,
+    "name": "CD-4 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 216,
+    "name": "CD-4/CD-8",
+    "time": "AFTER ONE WEEK",
+    "price": 37500,
+    "keywords": [
+      "cd"
+    ]
+  },
+  {
+    "id": 217,
+    "name": "CD-5 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 218,
+    "name": "CD-56 Immunohistochemistry",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "56",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 219,
+    "name": "CD-68 Immunohistochemistry",
+    "time": "After 72 Hours",
+    "price": 3150,
+    "keywords": [
+      "cd",
+      "68",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 220,
+    "name": "CD-7 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 221,
+    "name": "CD-8 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "cd",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 222,
+    "name": "CDC Cytotoxicity Cross Match (Quantitative)",
+    "time": "AFTER FOUR DAYS",
+    "price": 27610,
+    "keywords": [
+      "cdc",
+      "cytotoxicity",
+      "cross",
+      "match",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 223,
+    "name": "CDX-2 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "cdx",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 224,
+    "name": "CE A (Carcinoembryonic Antigen)",
+    "time": "After 48 Hours",
+    "price": 4500,
+    "keywords": [
+      "ce",
+      "carcinoembryonic",
+      "antigen",
+      "carcinoembryonic antigen"
+    ]
+  },
+  {
+    "id": 225,
+    "name": "Ceruloplasmin",
+    "time": "After 48 Hours",
+    "price": 2500,
+    "keywords": [
+      "ceruloplasmin"
+    ]
+  },
+  {
+    "id": 226,
+    "name": "CFTR F508del mutation Detection",
+    "time": "AFTER FOUR WEEKS",
+    "price": 13000,
+    "keywords": [
+      "cftr",
+      "f508del",
+      "mutation",
+      "detection"
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Chloride (24 Hours Urine)",
+    "time": "After 48 Hours",
+    "price": 1000,
+    "keywords": [
+      "chloride",
+      "24",
+      "hours",
+      "urine",
+      "24 hours urine"
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Chloride (Spot Urine)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "chloride",
+      "spot",
+      "urine",
+      "spot urine"
+    ]
+  },
+  {
+    "id": 229,
+    "name": "Chloride (Fluid)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "chloride",
+      "fluid"
+    ]
+  },
+  {
+    "id": 230,
+    "name": "Chloride (Serum)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "chloride",
+      "serum"
+    ]
+  },
+  {
+    "id": 231,
+    "name": "Cholesterol",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "cholesterol"
+    ]
+  },
+  {
+    "id": 232,
+    "name": "Cholinestrase (Serum)",
+    "time": "After 48 Hours",
+    "price": 5300,
+    "keywords": [
+      "cholinestrase",
+      "serum"
+    ]
+  },
+  {
+    "id": 233,
+    "name": "Chromo Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "chromo",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 234,
+    "name": "Chromogranin Immunohistochemistry",
+    "time": "AFTER 7 DAYS",
+    "price": 3150,
+    "keywords": [
+      "chromogranin",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 235,
+    "name": "Chromosome Analysis for Congenital Disorders, Blood",
+    "time": "AFTER",
+    "price": 20900,
+    "keywords": [
+      "chromosome",
+      "analysis",
+      "for",
+      "congenital",
+      "disorders",
+      "blood"
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Chromosome Analysis for Haematological Disorder (Cytogenetics)",
+    "time": "AFTER 8 WEEKS",
+    "price": 20500,
+    "keywords": [
+      "chromosome",
+      "analysis",
+      "for",
+      "haematological",
+      "disorder",
+      "cytogenetics"
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Citrate (24 Urine)",
+    "time": "After 48 Hours",
+    "price": 3900,
+    "keywords": [
+      "citrate",
+      "24",
+      "urine",
+      "24 urine"
+    ]
+  },
+  {
+    "id": 238,
+    "name": "CK Immunohistochemistry",
+    "time": "AFTER 10 DAYS",
+    "price": 3500,
+    "keywords": [
+      "ck",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 239,
+    "name": "CK-20 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "ck",
+      "20",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 240,
+    "name": "CK-7 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "ck",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 241,
+    "name": "Clotting Time",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "clotting",
+      "time"
+    ]
+  },
+  {
+    "id": 242,
+    "name": "cMP",
+    "time": "AFTER FOUR WEEKS",
+    "price": 28000,
+    "keywords": [
+      "cmp"
+    ]
+  },
+  {
+    "id": 243,
+    "name": "CMV PCR Quantitative",
+    "time": "AFTER 7 DAYS",
+    "price": 18400,
+    "keywords": [
+      "cmv",
+      "pcr",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 244,
+    "name": "Coagulation Profile",
+    "time": "After 24 Hours",
+    "price": 3000,
+    "keywords": [
+      "coagulation",
+      "profile"
+    ]
+  },
+  {
+    "id": 245,
+    "name": "Cocaine (Urine)",
+    "time": "After 72 Hours",
+    "price": 9200,
+    "keywords": [
+      "cocaine",
+      "urine"
+    ]
+  },
+  {
+    "id": 246,
+    "name": "Congo Virus (CCHF) PCR Qualitative",
+    "time": "AFTER FOUR DAYS",
+    "price": 9400,
+    "keywords": [
+      "congo",
+      "virus",
+      "cchf",
+      "pcr",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 247,
+    "name": "Conjunctival Swab Left side for C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "conjunctival",
+      "swab",
+      "left",
+      "side",
+      "for"
+    ]
+  },
+  {
+    "id": 248,
+    "name": "Conjunctival Swab Right side for C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "conjunctival",
+      "swab",
+      "right",
+      "side",
+      "for"
+    ]
+  },
+  {
+    "id": 249,
+    "name": "Coombs Test (Direct)",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "coombs",
+      "test",
+      "direct"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Coombs Test (Indirect)",
+    "time": "NEX T DAY",
+    "price": 2800,
+    "keywords": [
+      "coombs",
+      "test",
+      "indirect"
+    ]
+  },
+  {
+    "id": 251,
+    "name": "Copper (Serum)",
+    "time": "AFTER",
+    "price": 2700,
+    "keywords": [
+      "copper",
+      "serum"
+    ]
+  },
+  {
+    "id": 252,
+    "name": "Cord Blood Gases",
+    "time": "After 24 Hours",
+    "price": 2200,
+    "keywords": [
+      "cord",
+      "blood",
+      "gases"
+    ]
+  },
+  {
+    "id": 253,
+    "name": "Cornial Scraping C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "cornial",
+      "scraping"
+    ]
+  },
+  {
+    "id": 254,
+    "name": "Cortisol (AM)",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "cortisol",
+      "am"
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Cortisol (PM)",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "cortisol",
+      "pm"
+    ]
+  },
+  {
+    "id": 256,
+    "name": "COVID-19 (Corona Virus) PCR Qualitative",
+    "time": "After 24 Hours",
+    "price": 7000,
+    "keywords": [
+      "covid",
+      "19",
+      "corona",
+      "virus",
+      "pcr",
+      "qualitative",
+      "corona virus"
+    ]
+  },
+  {
+    "id": 257,
+    "name": "CPK",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "cpk"
+    ]
+  },
+  {
+    "id": 258,
+    "name": "Creatine Kinase-MB (CK-MB)",
+    "time": "After 24 Hours",
+    "price": 2400,
+    "keywords": [
+      "creatine",
+      "kinase",
+      "mb",
+      "ck",
+      "ck-mb"
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Creatinine",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "creatinine"
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Creatinine (24 Hrs Urine)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "creatinine",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 261,
+    "name": "Creatinine Clearance",
+    "time": "After 24 Hours",
+    "price": 2200,
+    "keywords": [
+      "creatinine",
+      "clearance"
+    ]
+  },
+  {
+    "id": 262,
+    "name": "Creatinine Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "creatinine",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 263,
+    "name": "Cross Match With Chromatographic Screening",
+    "time": "After 24 Hours",
+    "price": 5500,
+    "keywords": [
+      "cross",
+      "match",
+      "with",
+      "chromatographic",
+      "screening"
+    ]
+  },
+  {
+    "id": 264,
+    "name": "Cross Match With ELISA",
+    "time": "NEX T DAY",
+    "price": 10000,
+    "keywords": [
+      "cross",
+      "match",
+      "with",
+      "elisa"
+    ]
+  },
+  {
+    "id": 265,
+    "name": "CR P (SKMCH)",
+    "time": "After 24 Hours",
+    "price": 3300,
+    "keywords": [
+      "cr",
+      "skmch"
+    ]
+  },
+  {
+    "id": 266,
+    "name": "CR P Latex (Quantitative)",
+    "time": "After 24 Hours",
+    "price": 1900,
+    "keywords": [
+      "cr",
+      "latex",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 267,
+    "name": "CR P Quantitative (hs)",
+    "time": "After 24 Hours",
+    "price": 2700,
+    "keywords": [
+      "cr",
+      "quantitative",
+      "hs"
+    ]
+  },
+  {
+    "id": 268,
+    "name": "CSF Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "csf",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 269,
+    "name": "CSF Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "csf",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 270,
+    "name": "CSF For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "csf",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 271,
+    "name": "CSF for C/E",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "csf",
+      "for"
+    ]
+  },
+  {
+    "id": 272,
+    "name": "CSF For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "csf",
+      "for"
+    ]
+  },
+  {
+    "id": 273,
+    "name": "CSF For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2500,
+    "keywords": [
+      "csf",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 274,
+    "name": "CSF For Lactate Level",
+    "time": "NEX T DAY",
+    "price": 2200,
+    "keywords": [
+      "csf",
+      "for",
+      "lactate",
+      "level"
+    ]
+  },
+  {
+    "id": 275,
+    "name": "Culture and sensitivity",
+    "time": "After 72 Hours",
+    "price": 2800,
+    "keywords": [
+      "culture",
+      "and",
+      "sensitivity"
+    ]
+  },
+  {
+    "id": 276,
+    "name": "Culture for Urine (Anaerobic)",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "culture",
+      "for",
+      "urine",
+      "anaerobic"
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Cvp Tip For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "cvp",
+      "tip",
+      "for"
+    ]
+  },
+  {
+    "id": 278,
+    "name": "Cyclosporine Level",
+    "time": "After 48 Hours",
+    "price": 9000,
+    "keywords": [
+      "cyclosporine",
+      "level"
+    ]
+  },
+  {
+    "id": 279,
+    "name": "Cystic Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "cystic",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 280,
+    "name": "Cystic Fluid For C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "cystic",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 281,
+    "name": "Cystic Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "cystic",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 282,
+    "name": "Cystic Fluid For Cytology",
+    "time": "After 48 Hours",
+    "price": 2500,
+    "keywords": [
+      "cystic",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 283,
+    "name": "Cystic Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "cystic",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 284,
+    "name": "D-Dimer",
+    "time": "NEX T DAY",
+    "price": 3700,
+    "keywords": [
+      "dimer"
+    ]
+  },
+  {
+    "id": 285,
+    "name": "Dengue (IgG) by ELIS A (special)",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "dengue",
+      "igg",
+      "by",
+      "elis",
+      "special"
+    ]
+  },
+  {
+    "id": 286,
+    "name": "Dengue (IgM) by ELIS A (special)",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "dengue",
+      "igm",
+      "by",
+      "elis",
+      "special"
+    ]
+  },
+  {
+    "id": 287,
+    "name": "Dengue Ns1 by ELIS A (special)",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "dengue",
+      "ns1",
+      "by",
+      "elis",
+      "special"
+    ]
+  },
+  {
+    "id": 288,
+    "name": "Dengue RN A by PCR",
+    "time": "After 72 Hours",
+    "price": 8000,
+    "keywords": [
+      "dengue",
+      "rn",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 289,
+    "name": "Desmin Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "desmin",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 290,
+    "name": "DHE A SO4",
+    "time": "AFTER FOUR DAYS",
+    "price": 3300,
+    "keywords": [
+      "dhe",
+      "so4"
+    ]
+  },
+  {
+    "id": 291,
+    "name": "Digoxin",
+    "time": "After 48 Hours",
+    "price": 2400,
+    "keywords": [
+      "digoxin"
+    ]
+  },
+  {
+    "id": 292,
+    "name": "Drain Urine for Creatinine",
+    "time": "After 24 Hours",
+    "price": 850,
+    "keywords": [
+      "drain",
+      "urine",
+      "for",
+      "creatinine"
+    ]
+  },
+  {
+    "id": 293,
+    "name": "Drain Urine For Urea",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "drain",
+      "urine",
+      "for",
+      "urea"
+    ]
+  },
+  {
+    "id": 294,
+    "name": "Ear Swab For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "ear",
+      "swab",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 295,
+    "name": "Ear Swab For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "ear",
+      "swab",
+      "for"
+    ]
+  },
+  {
+    "id": 296,
+    "name": "Ear Swab For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "ear",
+      "swab",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 297,
+    "name": "EBV by PCR (Quantitaitve)",
+    "time": "AFTER ONE WEEK",
+    "price": 9400,
+    "keywords": [
+      "ebv",
+      "by",
+      "pcr",
+      "quantitaitve"
+    ]
+  },
+  {
+    "id": 298,
+    "name": "Echinococcus granulosis Ig G",
+    "time": "After 48 Hours",
+    "price": 5000,
+    "keywords": [
+      "echinococcus",
+      "granulosis",
+      "ig"
+    ]
+  },
+  {
+    "id": 299,
+    "name": "eGFR with Creatinine",
+    "time": "After 24 Hours",
+    "price": 1400,
+    "keywords": [
+      "egfr",
+      "with",
+      "creatinine"
+    ]
+  },
+  {
+    "id": 300,
+    "name": "EN A Quantrix IgG",
+    "time": "AFTER 10 DAYS",
+    "price": 9650,
+    "keywords": [
+      "en",
+      "quantrix",
+      "igg"
+    ]
+  },
+  {
+    "id": 301,
+    "name": "Entamoeba Histolytica Abs (Amoebiasis)",
+    "time": "After 72 Hours",
+    "price": 4500,
+    "keywords": [
+      "entamoeba",
+      "histolytica",
+      "abs",
+      "amoebiasis"
+    ]
+  },
+  {
+    "id": 302,
+    "name": "Eosinophil Count (Urine)",
+    "time": "After 72 Hours",
+    "price": 1750,
+    "keywords": [
+      "eosinophil",
+      "count",
+      "urine"
+    ]
+  },
+  {
+    "id": 303,
+    "name": "ER/PR",
+    "time": "AFTER",
+    "price": 8400,
+    "keywords": [
+      "er",
+      "pr"
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Erythropoietin",
+    "time": "AFTER 7 DAYS",
+    "price": 9200,
+    "keywords": [
+      "erythropoietin"
+    ]
+  },
+  {
+    "id": 305,
+    "name": "ESR",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "esr"
+    ]
+  },
+  {
+    "id": 306,
+    "name": "Estradiol (E2)",
+    "time": "After 24 Hours",
+    "price": 2700,
+    "keywords": [
+      "estradiol",
+      "e2"
+    ]
+  },
+  {
+    "id": 307,
+    "name": "Everolimus",
+    "time": "After 72 Hours",
+    "price": 9000,
+    "keywords": [
+      "everolimus"
+    ]
+  },
+  {
+    "id": 308,
+    "name": "External Surveillance Report (1 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 2000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "1 specimen"
+    ]
+  },
+  {
+    "id": 309,
+    "name": "External Surveillance Report (10 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 19800,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "10",
+      "specimen",
+      "10 specimen"
+    ]
+  },
+  {
+    "id": 310,
+    "name": "External Surveillance Report (3 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 6000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "3 specimen"
+    ]
+  },
+  {
+    "id": 311,
+    "name": "External Surveillance Report (4 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 7000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "4 specimen"
+    ]
+  },
+  {
+    "id": 312,
+    "name": "External Surveillance Report (5 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 10000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "5 specimen"
+    ]
+  },
+  {
+    "id": 313,
+    "name": "External Surveillance Report (6 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 12000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "6 specimen"
+    ]
+  },
+  {
+    "id": 314,
+    "name": "External Surveillance Report (7 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 14000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "7 specimen"
+    ]
+  },
+  {
+    "id": 315,
+    "name": "External Surveillance Report (8 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 16000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "8 specimen"
+    ]
+  },
+  {
+    "id": 316,
+    "name": "External Surveillance Report (9 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 18000,
+    "keywords": [
+      "external",
+      "surveillance",
+      "report",
+      "specimen",
+      "9 specimen"
+    ]
+  },
+  {
+    "id": 317,
+    "name": "Eye Swab (Left) for ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "eye",
+      "swab",
+      "left",
+      "for",
+      "zn",
+      "stain"
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Eye Swab (Right) for ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "eye",
+      "swab",
+      "right",
+      "for",
+      "zn",
+      "stain"
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Eye Swab C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "eye",
+      "swab"
+    ]
+  },
+  {
+    "id": 320,
+    "name": "Factor II Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "ii",
+      "level"
+    ]
+  },
+  {
+    "id": 321,
+    "name": "Factor IX Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "ix",
+      "level"
+    ]
+  },
+  {
+    "id": 322,
+    "name": "Factor V Leiden (FVL) Mutation Detection",
+    "time": "AFTER 10 DAYS",
+    "price": 7500,
+    "keywords": [
+      "factor",
+      "leiden",
+      "fvl",
+      "mutation",
+      "detection"
+    ]
+  },
+  {
+    "id": 323,
+    "name": "Factor V Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "level"
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Factor VII Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "vii",
+      "level"
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Factor VIII Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "viii",
+      "level"
+    ]
+  },
+  {
+    "id": 326,
+    "name": "Factor X Level",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "level"
+    ]
+  },
+  {
+    "id": 327,
+    "name": "Factor XII Level",
+    "time": "AFTER 7 DAYS",
+    "price": 3500,
+    "keywords": [
+      "factor",
+      "xii",
+      "level"
+    ]
+  },
+  {
+    "id": 328,
+    "name": "Factor XIII",
+    "time": "AFTER",
+    "price": 4550,
+    "keywords": [
+      "factor",
+      "xiii"
+    ]
+  },
+  {
+    "id": 329,
+    "name": "Ferritin",
+    "time": "After 24 Hours",
+    "price": 2500,
+    "keywords": [
+      "ferritin"
+    ]
+  },
+  {
+    "id": 330,
+    "name": "Fibrinogen",
+    "time": "After 48 Hours",
+    "price": 2600,
+    "keywords": [
+      "fibrinogen"
+    ]
+  },
+  {
+    "id": 331,
+    "name": "FISH p53 (17P13) Deletion, Blood/Bone Marrow Aspirate",
+    "time": "AFTER 10 DAYS",
+    "price": 28000,
+    "keywords": [
+      "fish",
+      "p53",
+      "17p13",
+      "deletion",
+      "blood",
+      "bone",
+      "marrow",
+      "aspirate"
+    ]
+  },
+  {
+    "id": 332,
+    "name": "Flow Cross Match",
+    "time": "AFTER 7 DAYS",
+    "price": 30690,
+    "keywords": [
+      "flow",
+      "cross",
+      "match"
+    ]
+  },
+  {
+    "id": 333,
+    "name": "Fluid C/S",
+    "time": "After 72 Hours",
+    "price": 2680,
+    "keywords": [
+      "fluid"
+    ]
+  },
+  {
+    "id": 334,
+    "name": "Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 335,
+    "name": "Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 336,
+    "name": "Fluid For Albumin",
+    "time": "After 24 Hours",
+    "price": 1400,
+    "keywords": [
+      "fluid",
+      "for",
+      "albumin"
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Fluid For Analysis C/E",
+    "time": "After 48 Hours",
+    "price": 3000,
+    "keywords": [
+      "fluid",
+      "for",
+      "analysis"
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Fluid For Biochemistry",
+    "time": "NEX T DAY",
+    "price": 1300,
+    "keywords": [
+      "fluid",
+      "for",
+      "biochemistry"
+    ]
+  },
+  {
+    "id": 339,
+    "name": "Fluid for C/E,C/S & Cytology (SKMH)",
+    "time": "AFTER 7 DAYS",
+    "price": 19000,
+    "keywords": [
+      "fluid",
+      "for",
+      "cytology",
+      "skmh"
+    ]
+  },
+  {
+    "id": 340,
+    "name": "Fluid for C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 341,
+    "name": "Fluid for Cholesterol",
+    "time": "NEX T DAY",
+    "price": 800,
+    "keywords": [
+      "fluid",
+      "for",
+      "cholesterol"
+    ]
+  },
+  {
+    "id": 342,
+    "name": "Fluid for Creatinine",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "fluid",
+      "for",
+      "creatinine"
+    ]
+  },
+  {
+    "id": 343,
+    "name": "Fluid for cytology (all body fluid types including cellblock) SKMH",
+    "time": "AFTER ONE WEEK",
+    "price": 12700,
+    "keywords": [
+      "fluid",
+      "for",
+      "cytology",
+      "all",
+      "body",
+      "types",
+      "including",
+      "cellblock",
+      "skmh",
+      "all body fluid types including cellblock"
+    ]
+  },
+  {
+    "id": 344,
+    "name": "Fluid For Fungus C/S",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "fluid",
+      "for",
+      "fungus"
+    ]
+  },
+  {
+    "id": 345,
+    "name": "Fluid for Occult Blood",
+    "time": "After 24 Hours",
+    "price": 500,
+    "keywords": [
+      "fluid",
+      "for",
+      "occult",
+      "blood"
+    ]
+  },
+  {
+    "id": 346,
+    "name": "Fluid for PH",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "fluid",
+      "for",
+      "ph"
+    ]
+  },
+  {
+    "id": 347,
+    "name": "Fluid for Protein",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "fluid",
+      "for",
+      "protein"
+    ]
+  },
+  {
+    "id": 348,
+    "name": "Fluid for Specific Gravity",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "fluid",
+      "for",
+      "specific",
+      "gravity"
+    ]
+  },
+  {
+    "id": 349,
+    "name": "Fluid for Triglycerides",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "fluid",
+      "for",
+      "triglycerides"
+    ]
+  },
+  {
+    "id": 350,
+    "name": "Fluid for Urea",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "fluid",
+      "for",
+      "urea"
+    ]
+  },
+  {
+    "id": 351,
+    "name": "FNAC Procedure",
+    "time": "AFTER FIVE DAYS",
+    "price": 4000,
+    "keywords": [
+      "fnac",
+      "procedure"
+    ]
+  },
+  {
+    "id": 352,
+    "name": "FNAC Procedure & Reporting",
+    "time": "AFTER FIVE DAYS",
+    "price": 6000,
+    "keywords": [
+      "fnac",
+      "procedure",
+      "reporting"
+    ]
+  },
+  {
+    "id": 353,
+    "name": "FNAC Slides for Reporting",
+    "time": "AFTER FOUR DAYS",
+    "price": 4000,
+    "keywords": [
+      "fnac",
+      "slides",
+      "for",
+      "reporting"
+    ]
+  },
+  {
+    "id": 354,
+    "name": "Folate Level (Folic Acid)",
+    "time": "After 48 Hours",
+    "price": 3000,
+    "keywords": [
+      "folate",
+      "level",
+      "folic",
+      "acid",
+      "folic acid"
+    ]
+  },
+  {
+    "id": 355,
+    "name": "Free Androgen Index (FAI)",
+    "time": "After 48 Hours",
+    "price": 5500,
+    "keywords": [
+      "free",
+      "androgen",
+      "index",
+      "fai"
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Free Beta HCG",
+    "time": "AFTER FIVE DAYS",
+    "price": 14000,
+    "keywords": [
+      "free",
+      "beta",
+      "hcg"
+    ]
+  },
+  {
+    "id": 357,
+    "name": "Free Cortisol (24 Hours Urine)",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "free",
+      "cortisol",
+      "24",
+      "hours",
+      "urine",
+      "24 hours urine"
+    ]
+  },
+  {
+    "id": 358,
+    "name": "Free Protein-S",
+    "time": "AFTER 7 DAYS",
+    "price": 6150,
+    "keywords": [
+      "free",
+      "protein"
+    ]
+  },
+  {
+    "id": 359,
+    "name": "Free T3",
+    "time": "After 24 Hours",
+    "price": 3000,
+    "keywords": [
+      "free",
+      "t3"
+    ]
+  },
+  {
+    "id": 360,
+    "name": "Free T4",
+    "time": "After 24 Hours",
+    "price": 3000,
+    "keywords": [
+      "free",
+      "t4"
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Free Testosterone",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "free",
+      "testosterone"
+    ]
+  },
+  {
+    "id": 362,
+    "name": "FSH",
+    "time": "After 24 Hours",
+    "price": 2600,
+    "keywords": [
+      "fsh"
+    ]
+  },
+  {
+    "id": 363,
+    "name": "Fungal Culture",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "fungal",
+      "culture"
+    ]
+  },
+  {
+    "id": 364,
+    "name": "Fungal Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "fungal",
+      "stain"
+    ]
+  },
+  {
+    "id": 365,
+    "name": "G6 PD Test (Quantitative)",
+    "time": "After 72 Hours",
+    "price": 2350,
+    "keywords": [
+      "g6",
+      "pd",
+      "test",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 366,
+    "name": "Galactomannan",
+    "time": "AFTER 10 DAYS",
+    "price": 9500,
+    "keywords": [
+      "galactomannan"
+    ]
+  },
+  {
+    "id": 367,
+    "name": "Gall Stone Analysis",
+    "time": "After 72 Hours",
+    "price": 4000,
+    "keywords": [
+      "gall",
+      "stone",
+      "analysis"
+    ]
+  },
+  {
+    "id": 368,
+    "name": "Gamma GT",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "gamma",
+      "gt"
+    ]
+  },
+  {
+    "id": 369,
+    "name": "Gastrin Level-17",
+    "time": "AFTER FOUR DAYS",
+    "price": 6500,
+    "keywords": [
+      "gastrin",
+      "level",
+      "17"
+    ]
+  },
+  {
+    "id": 370,
+    "name": "Gauze Piece For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "gauze",
+      "piece",
+      "for"
+    ]
+  },
+  {
+    "id": 371,
+    "name": "GC T (100g - 2 sample) DRZAAR",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "gc",
+      "100g",
+      "sample",
+      "drzaar",
+      "100g - 2 sample"
+    ]
+  },
+  {
+    "id": 372,
+    "name": "GC T ( Glucose Challange Test ) e 50 Gram",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "gc",
+      "glucose",
+      "challange",
+      "test",
+      "50",
+      "gram",
+      "glucose challange test",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 373,
+    "name": "GC",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "gc"
+    ]
+  },
+  {
+    "id": 374,
+    "name": "Geimsa Stain",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "geimsa",
+      "stain"
+    ]
+  },
+  {
+    "id": 375,
+    "name": "GeneXpert MTB/RIF Assay",
+    "time": "AFTER FOUR DAYS",
+    "price": 9900,
+    "keywords": [
+      "genexpert",
+      "mtb",
+      "rif",
+      "assay"
+    ]
+  },
+  {
+    "id": 376,
+    "name": "Gentamycin Level",
+    "time": "AFTER FOUR DAYS",
+    "price": 2300,
+    "keywords": [
+      "gentamycin",
+      "level"
+    ]
+  },
+  {
+    "id": 377,
+    "name": "G FAP Immunohistochemistry",
+    "time": "AFTER 7 DAYS",
+    "price": 3150,
+    "keywords": [
+      "fap",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 378,
+    "name": "Glucose (2 Hours Post Parandial)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "glucose",
+      "hours",
+      "post",
+      "parandial",
+      "2 hours post parandial",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 379,
+    "name": "Glucose (Fluid)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "glucose",
+      "fluid",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 380,
+    "name": "Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 381,
+    "name": "Growth Hormone",
+    "time": "AFTER FOUR DAYS",
+    "price": 2900,
+    "keywords": [
+      "growth",
+      "hormone"
+    ]
+  },
+  {
+    "id": 382,
+    "name": "GT T (2 Sample - 75 Gram Glucose)",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "gt",
+      "sample",
+      "75",
+      "gram",
+      "glucose",
+      "2 sample - 75 gram glucose",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 383,
+    "name": "GT T ( Glucose Tolerance Test ) e 100 Gram Glucose",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "gt",
+      "glucose",
+      "tolerance",
+      "test",
+      "100",
+      "gram",
+      "glucose tolerance test",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 384,
+    "name": "GT T 3 Sample- 75 Gram Glucose",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "gt",
+      "sample",
+      "75",
+      "gram",
+      "glucose",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 385,
+    "name": "H pylori Ig G",
+    "time": "After 24 Hours",
+    "price": 3200,
+    "keywords": [
+      "pylori",
+      "ig"
+    ]
+  },
+  {
+    "id": 386,
+    "name": "H. pylori Ig A",
+    "time": "After 24 Hours",
+    "price": 3200,
+    "keywords": [
+      "pylori",
+      "ig"
+    ]
+  },
+  {
+    "id": 387,
+    "name": "Hair For Fungus C/S",
+    "time": "AFTER",
+    "price": 3500,
+    "keywords": [
+      "hair",
+      "for",
+      "fungus"
+    ]
+  },
+  {
+    "id": 388,
+    "name": "Haptoglobin",
+    "time": "AFTER FOUR DAYS",
+    "price": 2200,
+    "keywords": [
+      "haptoglobin"
+    ]
+  },
+  {
+    "id": 389,
+    "name": "HbA1C",
+    "time": "After 48 Hours",
+    "price": 2500,
+    "keywords": [
+      "hba1c"
+    ]
+  },
+  {
+    "id": 390,
+    "name": "HBe Ag (ELISA)",
+    "time": "AFTER FOUR DAYS",
+    "price": 3250,
+    "keywords": [
+      "hbe",
+      "ag",
+      "elisa"
+    ]
+  },
+  {
+    "id": 391,
+    "name": "HBs Ag (ELISA)",
+    "time": "After 24 Hours",
+    "price": 2300,
+    "keywords": [
+      "hbs",
+      "ag",
+      "elisa"
+    ]
+  },
+  {
+    "id": 392,
+    "name": "HBs Ag Screening",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "hbs",
+      "ag",
+      "screening"
+    ]
+  },
+  {
+    "id": 393,
+    "name": "HBV PCR Quantitative & Qualitative",
+    "time": "AFTER FOUR DAYS",
+    "price": 9500,
+    "keywords": [
+      "hbv",
+      "pcr",
+      "quantitative",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 394,
+    "name": "HCV PCR Quantitative & Qualitative",
+    "time": "AFTER FIVE DAYS",
+    "price": 9500,
+    "keywords": [
+      "hcv",
+      "pcr",
+      "quantitative",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 395,
+    "name": "HD L (Cholesterol)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "hd",
+      "cholesterol"
+    ]
+  },
+  {
+    "id": 396,
+    "name": "HDV PCR Qualitative",
+    "time": "AFTER 7 DAYS",
+    "price": 8300,
+    "keywords": [
+      "hdv",
+      "pcr",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 397,
+    "name": "HDV PCR Quantitative",
+    "time": "AFTER ONE WEEK",
+    "price": 13800,
+    "keywords": [
+      "hdv",
+      "pcr",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 398,
+    "name": "Helicobacter pylori Antigen (Stool)",
+    "time": "After 48 Hours",
+    "price": 2600,
+    "keywords": [
+      "helicobacter",
+      "pylori",
+      "antigen",
+      "stool"
+    ]
+  },
+  {
+    "id": 399,
+    "name": "Hemoglobin (HB)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "hemoglobin",
+      "hb"
+    ]
+  },
+  {
+    "id": 400,
+    "name": "Hemoglobin Electrophoresis",
+    "time": "AFTER 6 DAYS",
+    "price": 3800,
+    "keywords": [
+      "hemoglobin",
+      "electrophoresis"
+    ]
+  },
+  {
+    "id": 401,
+    "name": "Hemosiderin (Urine)",
+    "time": "After 72 Hours",
+    "price": 2500,
+    "keywords": [
+      "hemosiderin",
+      "urine"
+    ]
+  },
+  {
+    "id": 402,
+    "name": "HE P Par-1 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "he",
+      "par",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 403,
+    "name": "HER 2 NEO Immunohistochemistry",
+    "time": "AFTER 7 DAYS",
+    "price": 10000,
+    "keywords": [
+      "her",
+      "neo",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 404,
+    "name": "HER-2 neu",
+    "time": "AFTER",
+    "price": 8250,
+    "keywords": [
+      "her",
+      "neu"
+    ]
+  },
+  {
+    "id": 405,
+    "name": "HEV B Y PCR (Quantitation)",
+    "time": "AFTER ONE WEEK",
+    "price": 9800,
+    "keywords": [
+      "hev",
+      "pcr",
+      "quantitation"
+    ]
+  },
+  {
+    "id": 406,
+    "name": "Histamine Determination",
+    "time": "AFTER 6 WEEKS",
+    "price": 23200,
+    "keywords": [
+      "histamine",
+      "determination"
+    ]
+  },
+  {
+    "id": 407,
+    "name": "Histopathology - Medium/Large bone (Gross, bone decalcification and microscopy including histochemical and immunochemistry",
+    "time": "AFTER 10 DAYS",
+    "price": 12700,
+    "keywords": [
+      "histopathology",
+      "medium",
+      "large",
+      "bone",
+      "gross",
+      "decalcification",
+      "and",
+      "microscopy",
+      "including",
+      "histochemical",
+      "immunochemistry"
+    ]
+  },
+  {
+    "id": 408,
+    "name": "stain) Histopathology (Gross Microscopy & immunochemistry stains)",
+    "time": "AFTER 10 DAYS",
+    "price": 15000,
+    "keywords": [
+      "stain",
+      "histopathology",
+      "gross",
+      "microscopy",
+      "immunochemistry",
+      "stains",
+      "gross microscopy & immunochemistry stains"
+    ]
+  },
+  {
+    "id": 409,
+    "name": "Histopathology (Gross Microscopy & immunohistochemistry stain) Large for SKMH",
+    "time": "AFTER ONE WEEK",
+    "price": 13000,
+    "keywords": [
+      "histopathology",
+      "gross",
+      "microscopy",
+      "immunohistochemistry",
+      "stain",
+      "large",
+      "for",
+      "skmh",
+      "gross microscopy & immunohistochemistry stain"
+    ]
+  },
+  {
+    "id": 410,
+    "name": "Histopathology (Gross Microscopy & immunohistochemistry stain) Mediam for",
+    "time": "AFTER ONE WEEK",
+    "price": 9000,
+    "keywords": [
+      "histopathology",
+      "gross",
+      "microscopy",
+      "immunohistochemistry",
+      "stain",
+      "mediam",
+      "for",
+      "gross microscopy & immunohistochemistry stain"
+    ]
+  },
+  {
+    "id": 411,
+    "name": "SKMH Histopathology (Gross Microscopy & immunohistochemistry stain) Small for SKMH",
+    "time": "AFTER 10 DAYS",
+    "price": 9100,
+    "keywords": [
+      "skmh",
+      "histopathology",
+      "gross",
+      "microscopy",
+      "immunohistochemistry",
+      "stain",
+      "small",
+      "for",
+      "gross microscopy & immunohistochemistry stain"
+    ]
+  },
+  {
+    "id": 412,
+    "name": "Histopathology (Gross Microscopy & immunohistochemistry stains)",
+    "time": "AFTER 10 DAYS",
+    "price": 10600,
+    "keywords": [
+      "histopathology",
+      "gross",
+      "microscopy",
+      "immunohistochemistry",
+      "stains",
+      "gross microscopy & immunohistochemistry stains"
+    ]
+  },
+  {
+    "id": 413,
+    "name": "Histopathology 2 Block",
+    "time": "AFTER 9 DAYS",
+    "price": 6000,
+    "keywords": [
+      "histopathology",
+      "block"
+    ]
+  },
+  {
+    "id": 414,
+    "name": "Histopathology 3 Block",
+    "time": "AFTER 9 DAYS",
+    "price": 7500,
+    "keywords": [
+      "histopathology",
+      "block"
+    ]
+  },
+  {
+    "id": 415,
+    "name": "Histopathology 4 Block",
+    "time": "AFTER 9 DAYS",
+    "price": 9000,
+    "keywords": [
+      "histopathology",
+      "block"
+    ]
+  },
+  {
+    "id": 416,
+    "name": "Histopathology Single Block",
+    "time": "AFTER 9 DAYS",
+    "price": 4700,
+    "keywords": [
+      "histopathology",
+      "single",
+      "block"
+    ]
+  },
+  {
+    "id": 417,
+    "name": "Histopathology Slides & Block",
+    "time": "After 72 Hours",
+    "price": 1900,
+    "keywords": [
+      "histopathology",
+      "slides",
+      "block"
+    ]
+  },
+  {
+    "id": 418,
+    "name": "HIV RN A by PCR (Quantitative)",
+    "time": "AFTER 7 DAYS",
+    "price": 13200,
+    "keywords": [
+      "hiv",
+      "rn",
+      "by",
+      "pcr",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 419,
+    "name": "HMGCO A Reductase rec .AB. with Autoimmune prof with inf. Myopat",
+    "time": "AFTER 10 DAYS",
+    "price": 15660,
+    "keywords": [
+      "hmgco",
+      "reductase",
+      "rec",
+      "ab",
+      "with",
+      "autoimmune",
+      "prof",
+      "inf",
+      "myopat"
+    ]
+  },
+  {
+    "id": 420,
+    "name": "HOMA-IR",
+    "time": "After 72 Hours",
+    "price": 4600,
+    "keywords": [
+      "homa",
+      "ir"
+    ]
+  },
+  {
+    "id": 421,
+    "name": "Homocysteine Level",
+    "time": "After 72 Hours",
+    "price": 2850,
+    "keywords": [
+      "homocysteine",
+      "level"
+    ]
+  },
+  {
+    "id": 422,
+    "name": "HPV DN A Qualitative",
+    "time": "AFTER 7 DAYS",
+    "price": 9200,
+    "keywords": [
+      "hpv",
+      "dn",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 423,
+    "name": "HSV1 , HSV2 PCR Qualitative",
+    "time": "AFTER 7 DAYS",
+    "price": 10200,
+    "keywords": [
+      "hsv1",
+      "hsv2",
+      "pcr",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 424,
+    "name": "HVS For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "hvs",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 425,
+    "name": "HVS For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "hvs",
+      "for"
+    ]
+  },
+  {
+    "id": 426,
+    "name": "HVS For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "hvs",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 427,
+    "name": "Hydrocele Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "hydrocele",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 428,
+    "name": "Hydrocele Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "hydrocele",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 429,
+    "name": "Hydrocele Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "hydrocele",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 430,
+    "name": "Hydrocele Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2500,
+    "keywords": [
+      "hydrocele",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 431,
+    "name": "Hydrocele Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 650,
+    "keywords": [
+      "hydrocele",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 432,
+    "name": "Ig A (Immunoglobulin A)",
+    "time": "AFTER FOUR DAYS",
+    "price": 1700,
+    "keywords": [
+      "ig",
+      "immunoglobulin",
+      "immunoglobulin a"
+    ]
+  },
+  {
+    "id": 433,
+    "name": "Ig E (Immunoglobulin E)",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "ig",
+      "immunoglobulin",
+      "immunoglobulin e"
+    ]
+  },
+  {
+    "id": 434,
+    "name": "Ig G (Immunoglobulin G)",
+    "time": "AFTER FOUR DAYS",
+    "price": 1700,
+    "keywords": [
+      "ig",
+      "immunoglobulin",
+      "immunoglobulin g"
+    ]
+  },
+  {
+    "id": 435,
+    "name": "Ig M (Immunoglobulin M)",
+    "time": "AFTER FOUR DAYS",
+    "price": 1700,
+    "keywords": [
+      "ig",
+      "immunoglobulin",
+      "immunoglobulin m"
+    ]
+  },
+  {
+    "id": 436,
+    "name": "IgG Anti Gangliosides Antibodies",
+    "time": "AFTER 7 DAYS",
+    "price": 6300,
+    "keywords": [
+      "igg",
+      "anti",
+      "gangliosides",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 437,
+    "name": "IgG Index",
+    "time": "AFTER 9 DAYS",
+    "price": 10800,
+    "keywords": [
+      "igg",
+      "index"
+    ]
+  },
+  {
+    "id": 438,
+    "name": "IL- 6 (Serum)",
+    "time": "AFTER FIVE DAYS",
+    "price": 5000,
+    "keywords": [
+      "il",
+      "serum"
+    ]
+  },
+  {
+    "id": 439,
+    "name": "Immature Platelet Fraction (IPF)",
+    "time": "After 48 Hours",
+    "price": 2300,
+    "keywords": [
+      "immature",
+      "platelet",
+      "fraction",
+      "ipf"
+    ]
+  },
+  {
+    "id": 440,
+    "name": "Immunocytochemistry",
+    "time": "AFTER",
+    "price": 3550,
+    "keywords": [
+      "immunocytochemistry"
+    ]
+  },
+  {
+    "id": 441,
+    "name": "Immunofixation Electrophoresis",
+    "time": "AFTER 10 DAYS",
+    "price": 8800,
+    "keywords": [
+      "immunofixation",
+      "electrophoresis"
+    ]
+  },
+  {
+    "id": 442,
+    "name": "Immunoglobulins (IgA,IgG,IgM)",
+    "time": "After 72 Hours",
+    "price": 5000,
+    "keywords": [
+      "immunoglobulins",
+      "iga",
+      "igg",
+      "igm",
+      "iga,igg,igm"
+    ]
+  },
+  {
+    "id": 443,
+    "name": "Immunohistochemistry Programmed Death Ligand 1 (PD-L1) (22C3)",
+    "time": "AFTER 10 DAYS",
+    "price": 22000,
+    "keywords": [
+      "immunohistochemistry",
+      "programmed",
+      "death",
+      "ligand",
+      "pd",
+      "l1",
+      "22c3",
+      "pd-l1"
+    ]
+  },
+  {
+    "id": 444,
+    "name": "Immunohistochemistry Stain S-100",
+    "time": "AFTER 7 DAYS",
+    "price": 3500,
+    "keywords": [
+      "immunohistochemistry",
+      "stain",
+      "100"
+    ]
+  },
+  {
+    "id": 445,
+    "name": "Immunohistochemistry Stain SOX-10",
+    "time": "AFTER 7 DAYS",
+    "price": 3500,
+    "keywords": [
+      "immunohistochemistry",
+      "stain",
+      "sox",
+      "10"
+    ]
+  },
+  {
+    "id": 446,
+    "name": "India Ink Stain",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "india",
+      "ink",
+      "stain"
+    ]
+  },
+  {
+    "id": 447,
+    "name": "Influenza ( A & B) Covid & RSV PCR",
+    "time": "AFTER FOUR DAYS",
+    "price": 23700,
+    "keywords": [
+      "influenza",
+      "covid",
+      "rsv",
+      "pcr",
+      "a & b"
+    ]
+  },
+  {
+    "id": 448,
+    "name": "Influenza A&B and H1N1 by PCR",
+    "time": "AFTER FIVE DAYS",
+    "price": 23700,
+    "keywords": [
+      "influenza",
+      "and",
+      "h1n1",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 449,
+    "name": "Influenza Antigen Profile",
+    "time": "After 24 Hours",
+    "price": 19200,
+    "keywords": [
+      "influenza",
+      "antigen",
+      "profile"
+    ]
+  },
+  {
+    "id": 450,
+    "name": "Inorganic Phosphorus (PO4)",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "inorganic",
+      "phosphorus",
+      "po4"
+    ]
+  },
+  {
+    "id": 451,
+    "name": "Insulin",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "insulin"
+    ]
+  },
+  {
+    "id": 452,
+    "name": "Insulin (1 Hr after 75 gm glucose )",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "insulin",
+      "hr",
+      "after",
+      "75",
+      "gm",
+      "glucose",
+      "1 hr after 75 gm glucose",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 453,
+    "name": "Insulin (2 Hr after 75 gm glucose )",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "insulin",
+      "hr",
+      "after",
+      "75",
+      "gm",
+      "glucose",
+      "2 hr after 75 gm glucose",
+      "sugar",
+      "diabetes"
+    ]
+  },
+  {
+    "id": 454,
+    "name": "Insulin Growth Factor-1(Igf-1)",
+    "time": "After 72 Hours",
+    "price": 10000,
+    "keywords": [
+      "insulin",
+      "growth",
+      "factor",
+      "igf",
+      "igf-1"
+    ]
+  },
+  {
+    "id": 455,
+    "name": "Ionized Calcium",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "ionized",
+      "calcium"
+    ]
+  },
+  {
+    "id": 456,
+    "name": "Iron",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "iron"
+    ]
+  },
+  {
+    "id": 457,
+    "name": "JAK-2 V617F Mutation Detection By PCR",
+    "time": "AFTER 10 DAYS",
+    "price": 16000,
+    "keywords": [
+      "jak",
+      "v617f",
+      "mutation",
+      "detection",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 458,
+    "name": "JC Virus ( John Cummingham PCR Quantitation)",
+    "time": "AFTER ONE WEEK",
+    "price": 9150,
+    "keywords": [
+      "jc",
+      "virus",
+      "john",
+      "cummingham",
+      "pcr",
+      "quantitation",
+      "john cummingham pcr quantitation"
+    ]
+  },
+  {
+    "id": 459,
+    "name": "Joint Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 650,
+    "keywords": [
+      "joint",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 460,
+    "name": "Joint Fluid C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "joint",
+      "fluid"
+    ]
+  },
+  {
+    "id": 461,
+    "name": "Joint Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "joint",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 462,
+    "name": "Joint Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "joint",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 463,
+    "name": "Joint Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 2800,
+    "keywords": [
+      "joint",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 464,
+    "name": "Ketones (Urine)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "ketones",
+      "urine"
+    ]
+  },
+  {
+    "id": 465,
+    "name": "Ki 67 Immunohistochemistry",
+    "time": "AFTER 7 DAYS",
+    "price": 3150,
+    "keywords": [
+      "ki",
+      "67",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 466,
+    "name": "Knee Joint Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "knee",
+      "joint",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 467,
+    "name": "Knee Joint Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "knee",
+      "joint",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 468,
+    "name": "Knee Joint Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "knee",
+      "joint",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 469,
+    "name": "Lactate Level",
+    "time": "After 24 Hours",
+    "price": 2200,
+    "keywords": [
+      "lactate",
+      "level"
+    ]
+  },
+  {
+    "id": 470,
+    "name": "LDH (CSF)",
+    "time": "After 48 Hours",
+    "price": 1000,
+    "keywords": [
+      "ldh",
+      "csf"
+    ]
+  },
+  {
+    "id": 471,
+    "name": "LDH (Fluid)",
+    "time": "After 48 Hours",
+    "price": 1000,
+    "keywords": [
+      "ldh",
+      "fluid"
+    ]
+  },
+  {
+    "id": 472,
+    "name": "LDH (Serum)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "ldh",
+      "serum"
+    ]
+  },
+  {
+    "id": 473,
+    "name": "Legionella Antigen (Urine)",
+    "time": "After 72 Hours",
+    "price": 8100,
+    "keywords": [
+      "legionella",
+      "antigen",
+      "urine"
+    ]
+  },
+  {
+    "id": 474,
+    "name": "LH",
+    "time": "After 24 Hours",
+    "price": 2600,
+    "keywords": [
+      "lh"
+    ]
+  },
+  {
+    "id": 475,
+    "name": "Lipase (Fluid)",
+    "time": "After 24 Hours",
+    "price": 1600,
+    "keywords": [
+      "lipase",
+      "fluid"
+    ]
+  },
+  {
+    "id": 476,
+    "name": "Lipase (Serum)",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "lipase",
+      "serum"
+    ]
+  },
+  {
+    "id": 477,
+    "name": "Lipid Profile",
+    "time": "After 24 Hours",
+    "price": 2900,
+    "keywords": [
+      "lipid",
+      "profile",
+      "cholesterol"
+    ]
+  },
+  {
+    "id": 478,
+    "name": "Lipoprotein (a)",
+    "time": "After 48 Hours",
+    "price": 1850,
+    "keywords": [
+      "lipoprotein"
+    ]
+  },
+  {
+    "id": 479,
+    "name": "Lithium",
+    "time": "AFTER FOUR DAYS",
+    "price": 2500,
+    "keywords": [
+      "lithium"
+    ]
+  },
+  {
+    "id": 480,
+    "name": "Liver Function Test ( LF Ts ) with Direct Bilirubin",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "liver",
+      "function",
+      "test",
+      "lf",
+      "ts",
+      "with",
+      "direct",
+      "bilirubin",
+      "lf ts",
+      "lft"
+    ]
+  },
+  {
+    "id": 481,
+    "name": "Liver Function Test (LFTs) with GGT",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "liver",
+      "function",
+      "test",
+      "lfts",
+      "with",
+      "ggt",
+      "lft"
+    ]
+  },
+  {
+    "id": 482,
+    "name": "Liver or Muscle Biopsy (including immunohistochemistry)",
+    "time": "AFTER 10 DAYS",
+    "price": 12000,
+    "keywords": [
+      "liver",
+      "or",
+      "muscle",
+      "biopsy",
+      "including",
+      "immunohistochemistry",
+      "including immunohistochemistry"
+    ]
+  },
+  {
+    "id": 483,
+    "name": "Luminex Class 1 AB Detection",
+    "time": "AFTER 9 DAYS",
+    "price": 51720,
+    "keywords": [
+      "luminex",
+      "class",
+      "ab",
+      "detection"
+    ]
+  },
+  {
+    "id": 484,
+    "name": "Luminex Class 2 AB Detection",
+    "time": "AFTER 9 DAYS",
+    "price": 55830,
+    "keywords": [
+      "luminex",
+      "class",
+      "ab",
+      "detection"
+    ]
+  },
+  {
+    "id": 485,
+    "name": "Luminex SAB Class 1 (single antigen beads)",
+    "time": "AFTER 9 DAYS",
+    "price": 98980,
+    "keywords": [
+      "luminex",
+      "sab",
+      "class",
+      "single",
+      "antigen",
+      "beads",
+      "single antigen beads"
+    ]
+  },
+  {
+    "id": 486,
+    "name": "Luminex SAB Class 2 (single antigen beads)",
+    "time": "AFTER 9 DAYS",
+    "price": 73090,
+    "keywords": [
+      "luminex",
+      "sab",
+      "class",
+      "single",
+      "antigen",
+      "beads",
+      "single antigen beads"
+    ]
+  },
+  {
+    "id": 487,
+    "name": "Lupus Anticoagulant Abs",
+    "time": "AFTER",
+    "price": 7200,
+    "keywords": [
+      "lupus",
+      "anticoagulant",
+      "abs"
+    ]
+  },
+  {
+    "id": 488,
+    "name": "Magnesium",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "magnesium"
+    ]
+  },
+  {
+    "id": 489,
+    "name": "Magnesium (24 Hours Urine)",
+    "time": "After 48 Hours",
+    "price": 1050,
+    "keywords": [
+      "magnesium",
+      "24",
+      "hours",
+      "urine",
+      "24 hours urine"
+    ]
+  },
+  {
+    "id": 490,
+    "name": "Magnesium (Fluid)",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "magnesium",
+      "fluid"
+    ]
+  },
+  {
+    "id": 491,
+    "name": "Malarial Parasite (M.P) by Smear",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "malarial",
+      "parasite",
+      "by",
+      "smear",
+      "m.p"
+    ]
+  },
+  {
+    "id": 492,
+    "name": "Malarial Parasite (M.P) ICT",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "malarial",
+      "parasite",
+      "ict",
+      "m.p"
+    ]
+  },
+  {
+    "id": 493,
+    "name": "Malignant Cytology",
+    "time": "After 72 Hours",
+    "price": 2400,
+    "keywords": [
+      "malignant",
+      "cytology"
+    ]
+  },
+  {
+    "id": 494,
+    "name": "MDM2 immuunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 2500,
+    "keywords": [
+      "mdm2",
+      "immuunohistochemistry"
+    ]
+  },
+  {
+    "id": 495,
+    "name": "Measles IgG",
+    "time": "AFTER ONE WEEK",
+    "price": 3400,
+    "keywords": [
+      "measles",
+      "igg"
+    ]
+  },
+  {
+    "id": 496,
+    "name": "Measles IgM",
+    "time": "AFTER",
+    "price": 3400,
+    "keywords": [
+      "measles",
+      "igm"
+    ]
+  },
+  {
+    "id": 497,
+    "name": "Meningitis Pathogens Panel by PCR",
+    "time": "AFTER 7 DAYS",
+    "price": 11300,
+    "keywords": [
+      "meningitis",
+      "pathogens",
+      "panel",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 498,
+    "name": "Metanephrine and Normetanephrine",
+    "time": "AFTER 8 DAYS",
+    "price": 15900,
+    "keywords": [
+      "metanephrine",
+      "and",
+      "normetanephrine"
+    ]
+  },
+  {
+    "id": 499,
+    "name": "Methotrexate",
+    "time": "After 48 Hours",
+    "price": 6900,
+    "keywords": [
+      "methotrexate"
+    ]
+  },
+  {
+    "id": 500,
+    "name": "Microalbuminuria (24 Hrs Urine)",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "microalbuminuria",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 501,
+    "name": "Microalbuminuria Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 1600,
+    "keywords": [
+      "microalbuminuria",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 502,
+    "name": "Milk For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "milk",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Milk(Right) For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "milk",
+      "right",
+      "for"
+    ]
+  },
+  {
+    "id": 504,
+    "name": "Monkey Pox DN A by PCR ( Qualitative )",
+    "time": "After 48 Hours",
+    "price": 6600,
+    "keywords": [
+      "monkey",
+      "pox",
+      "dn",
+      "by",
+      "pcr",
+      "qualitative"
+    ]
+  },
+  {
+    "id": 505,
+    "name": "Mono Spot Test",
+    "time": "After 72 Hours",
+    "price": 1700,
+    "keywords": [
+      "mono",
+      "spot",
+      "test"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Monomeric Prolactin",
+    "time": "After 48 Hours",
+    "price": 3400,
+    "keywords": [
+      "monomeric",
+      "prolactin"
+    ]
+  },
+  {
+    "id": 507,
+    "name": "Morphine Derivatives (Urine)",
+    "time": "NEX T DAY",
+    "price": 2200,
+    "keywords": [
+      "morphine",
+      "derivatives",
+      "urine"
+    ]
+  },
+  {
+    "id": 508,
+    "name": "Mumps IgG",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "mumps",
+      "igg"
+    ]
+  },
+  {
+    "id": 509,
+    "name": "Mumps IgM",
+    "time": "After 72 Hours",
+    "price": 3500,
+    "keywords": [
+      "mumps",
+      "igm"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Mycodot Ig G ELISA",
+    "time": "After 72 Hours",
+    "price": 2300,
+    "keywords": [
+      "mycodot",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 511,
+    "name": "Mycodot Ig M ELISA",
+    "time": "After 72 Hours",
+    "price": 2300,
+    "keywords": [
+      "mycodot",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "Mycoplasma Ig G ELISA",
+    "time": "After 72 Hours",
+    "price": 3800,
+    "keywords": [
+      "mycoplasma",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 513,
+    "name": "Mycoplasma Ig M ELISA",
+    "time": "After 72 Hours",
+    "price": 3800,
+    "keywords": [
+      "mycoplasma",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 514,
+    "name": "Myogenin Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "myogenin",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "Nail For Fungal Examination",
+    "time": "AFTER",
+    "price": 900,
+    "keywords": [
+      "nail",
+      "for",
+      "fungal",
+      "examination"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Nasal Screation C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "nasal",
+      "screation"
+    ]
+  },
+  {
+    "id": 517,
+    "name": "Nasal Secretion C/S",
+    "time": "After 72 Hours",
+    "price": 2040,
+    "keywords": [
+      "nasal",
+      "secretion"
+    ]
+  },
+  {
+    "id": 518,
+    "name": "Nasal Secretion For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "nasal",
+      "secretion",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 519,
+    "name": "Nasal Secretion For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "nasal",
+      "secretion",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 520,
+    "name": "NMD A Receptor Ig G (CSF)",
+    "time": "AFTER 7 DAYS",
+    "price": 14000,
+    "keywords": [
+      "nmd",
+      "receptor",
+      "ig",
+      "csf"
+    ]
+  },
+  {
+    "id": 521,
+    "name": "NMD A Receptor Ig G (Serum)",
+    "time": "AFTER 7 DAYS",
+    "price": 14000,
+    "keywords": [
+      "nmd",
+      "receptor",
+      "ig",
+      "serum"
+    ]
+  },
+  {
+    "id": 522,
+    "name": "Non-HD L Cholesterol",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "non",
+      "hd",
+      "cholesterol"
+    ]
+  },
+  {
+    "id": 523,
+    "name": "Oligoclonal Bands",
+    "time": "AFTER",
+    "price": 11300,
+    "keywords": [
+      "oligoclonal",
+      "bands"
+    ]
+  },
+  {
+    "id": 524,
+    "name": "Opiates (Urine)",
+    "time": "After 72 Hours",
+    "price": 2200,
+    "keywords": [
+      "opiates",
+      "urine"
+    ]
+  },
+  {
+    "id": 525,
+    "name": "Oral Swab C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "oral",
+      "swab"
+    ]
+  },
+  {
+    "id": 526,
+    "name": "Osmolality (Serum)",
+    "time": "After 72 Hours",
+    "price": 2000,
+    "keywords": [
+      "osmolality",
+      "serum"
+    ]
+  },
+  {
+    "id": 527,
+    "name": "Osmolality Urine (Spot / Random)",
+    "time": "After 48 Hours",
+    "price": 2000,
+    "keywords": [
+      "osmolality",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 528,
+    "name": "Osmotic Fragility",
+    "time": "AFTER 7 DAYS",
+    "price": 2000,
+    "keywords": [
+      "osmotic",
+      "fragility"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "Oxalate (24 Urine)",
+    "time": "After 48 Hours",
+    "price": 4500,
+    "keywords": [
+      "oxalate",
+      "24",
+      "urine",
+      "24 urine"
+    ]
+  },
+  {
+    "id": 530,
+    "name": "p - ANCA",
+    "time": "After 72 Hours",
+    "price": 8000,
+    "keywords": [
+      "anca"
+    ]
+  },
+  {
+    "id": 531,
+    "name": "p 16 imunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 2500,
+    "keywords": [
+      "16",
+      "imunohistochemistry"
+    ]
+  },
+  {
+    "id": 532,
+    "name": "p40 Immunohistochemistry Stain",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "p40",
+      "immunohistochemistry",
+      "stain"
+    ]
+  },
+  {
+    "id": 533,
+    "name": "P53 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3500,
+    "keywords": [
+      "p53",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 534,
+    "name": "P63 Immunohistochemistry Stain",
+    "time": "AFTER 10 DAYS",
+    "price": 3500,
+    "keywords": [
+      "p63",
+      "immunohistochemistry",
+      "stain"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "Pancreatic Elastase (Stool)",
+    "time": "AFTER 10 DAYS",
+    "price": 7200,
+    "keywords": [
+      "pancreatic",
+      "elastase",
+      "stool"
+    ]
+  },
+  {
+    "id": 536,
+    "name": "Pap Smear",
+    "time": "AFTER FOUR DAYS",
+    "price": 2900,
+    "keywords": [
+      "pap",
+      "smear"
+    ]
+  },
+  {
+    "id": 537,
+    "name": "PAP smear for LBC",
+    "time": "AFTER FOUR DAYS",
+    "price": 3800,
+    "keywords": [
+      "pap",
+      "smear",
+      "for",
+      "lbc"
+    ]
+  },
+  {
+    "id": 538,
+    "name": "Paraneoplastic Antibodies",
+    "time": "AFTER ONE WEEK",
+    "price": 48000,
+    "keywords": [
+      "paraneoplastic",
+      "antibodies"
+    ]
+  },
+  {
+    "id": 539,
+    "name": "Parathyroid hormone (intact)",
+    "time": "NEX T DAY",
+    "price": 4000,
+    "keywords": [
+      "parathyroid",
+      "hormone",
+      "intact"
+    ]
+  },
+  {
+    "id": 540,
+    "name": "PAX 5 Immunohistochemistry",
+    "time": "AFTER 7 DAYS",
+    "price": 3150,
+    "keywords": [
+      "pax",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 541,
+    "name": "PAX-8 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "pax",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 542,
+    "name": "PCR Meningitis panel by Filmarray",
+    "time": "After 72 Hours",
+    "price": 83600,
+    "keywords": [
+      "pcr",
+      "meningitis",
+      "panel",
+      "by",
+      "filmarray"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "PCR Pneumocystis Pneumonia ( Real Time ), Sputum/Bronchoalveolar Lavag",
+    "time": "AFTER ONE WEEK",
+    "price": 21000,
+    "keywords": [
+      "pcr",
+      "pneumocystis",
+      "pneumonia",
+      "real",
+      "time",
+      "sputum",
+      "bronchoalveolar",
+      "lavag",
+      "real time"
+    ]
+  },
+  {
+    "id": 544,
+    "name": "PCR( Real Time ) HSV 1, HCV 2, & VZV DN A Detection for SKMH",
+    "time": "AFTER 10 DAYS",
+    "price": 61600,
+    "keywords": [
+      "pcr",
+      "real",
+      "time",
+      "hsv",
+      "hcv",
+      "vzv",
+      "dn",
+      "detection",
+      "for",
+      "skmh",
+      "real time"
+    ]
+  },
+  {
+    "id": 545,
+    "name": "Pericardial Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 546,
+    "name": "Pericardial Fluid For C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 547,
+    "name": "Pericardial Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 548,
+    "name": "Pericardial Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 549,
+    "name": "Pericardial Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "Pericardial Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "pericardial",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 551,
+    "name": "Peripheral Blood Film",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "peripheral",
+      "blood",
+      "film"
+    ]
+  },
+  {
+    "id": 552,
+    "name": "Peritoneal Fluid C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "peritoneal",
+      "fluid"
+    ]
+  },
+  {
+    "id": 553,
+    "name": "Peritoneal Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "peritoneal",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 554,
+    "name": "Peritoneal Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "peritoneal",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 555,
+    "name": "Peritoneal Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "peritoneal",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 556,
+    "name": "Peritoneal Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "peritoneal",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 557,
+    "name": "pH",
+    "time": "After 24 Hours",
+    "price": 400,
+    "keywords": [
+      "ph"
+    ]
+  },
+  {
+    "id": 558,
+    "name": "Phenobarbitone",
+    "time": "After 72 Hours",
+    "price": 2100,
+    "keywords": [
+      "phenobarbitone"
+    ]
+  },
+  {
+    "id": 559,
+    "name": "Phenytoin (Dilantin)",
+    "time": "After 72 Hours",
+    "price": 2700,
+    "keywords": [
+      "phenytoin",
+      "dilantin"
+    ]
+  },
+  {
+    "id": 560,
+    "name": "Phosphate (24 Hour Urine)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "phosphate",
+      "24",
+      "hour",
+      "urine",
+      "24 hour urine"
+    ]
+  },
+  {
+    "id": 561,
+    "name": "Plasma FDPs (D-Dimer)",
+    "time": "After 24 Hours",
+    "price": 3700,
+    "keywords": [
+      "plasma",
+      "fdps",
+      "dimer",
+      "d-dimer"
+    ]
+  },
+  {
+    "id": 562,
+    "name": "Plasma Renin (Direct)",
+    "time": "After 48 Hours",
+    "price": 5000,
+    "keywords": [
+      "plasma",
+      "renin",
+      "direct"
+    ]
+  },
+  {
+    "id": 563,
+    "name": "Platelet Count",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "platelet",
+      "count"
+    ]
+  },
+  {
+    "id": 564,
+    "name": "Pleural Fluid C/E",
+    "time": "After 48 Hours",
+    "price": 3000,
+    "keywords": [
+      "pleural",
+      "fluid"
+    ]
+  },
+  {
+    "id": 565,
+    "name": "Pleural Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1150,
+    "keywords": [
+      "pleural",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 566,
+    "name": "Pleural Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "pleural",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 567,
+    "name": "Pleural Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "pleural",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 568,
+    "name": "Pleural Fluid For Cytology",
+    "time": "After 72 Hours",
+    "price": 2400,
+    "keywords": [
+      "pleural",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 569,
+    "name": "Pleural Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "pleural",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 570,
+    "name": "Porphobilinogen (24 Hrs Urine)",
+    "time": "AFTER FOUR DAYS",
+    "price": 1300,
+    "keywords": [
+      "porphobilinogen",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 571,
+    "name": "Potassium",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "potassium"
+    ]
+  },
+  {
+    "id": 572,
+    "name": "Potassium (Fluid)",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "potassium",
+      "fluid"
+    ]
+  },
+  {
+    "id": 573,
+    "name": "Potassium Urine (Spot / Random)",
+    "time": "NEX T DAY",
+    "price": 700,
+    "keywords": [
+      "potassium",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 574,
+    "name": "Pregnancy Test (ICT)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "pregnancy",
+      "test",
+      "ict"
+    ]
+  },
+  {
+    "id": 575,
+    "name": "pro BNP",
+    "time": "After 24 Hours",
+    "price": 4600,
+    "keywords": [
+      "pro",
+      "bnp"
+    ]
+  },
+  {
+    "id": 576,
+    "name": "ProBN P (N-t) II",
+    "time": "AFTER 6 DAYS",
+    "price": 5400,
+    "keywords": [
+      "probn",
+      "ii",
+      "n-t"
+    ]
+  },
+  {
+    "id": 577,
+    "name": "Procalcitonin (PCT)",
+    "time": "AFTER FOUR DAYS",
+    "price": 6800,
+    "keywords": [
+      "procalcitonin",
+      "pct"
+    ]
+  },
+  {
+    "id": 578,
+    "name": "Procalcitonin (PCT) SKMH",
+    "time": "After 72 Hours",
+    "price": 6500,
+    "keywords": [
+      "procalcitonin",
+      "pct",
+      "skmh"
+    ]
+  },
+  {
+    "id": 579,
+    "name": "Progesterone",
+    "time": "After 24 Hours",
+    "price": 2600,
+    "keywords": [
+      "progesterone"
+    ]
+  },
+  {
+    "id": 580,
+    "name": "Prolactin",
+    "time": "After 48 Hours",
+    "price": 2700,
+    "keywords": [
+      "prolactin"
+    ]
+  },
+  {
+    "id": 581,
+    "name": "Protein (24 Hrs Urine)",
+    "time": "After 48 Hours",
+    "price": 1100,
+    "keywords": [
+      "protein",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 582,
+    "name": "Protein Electrophoresis",
+    "time": "AFTER 10 DAYS",
+    "price": 3300,
+    "keywords": [
+      "protein",
+      "electrophoresis"
+    ]
+  },
+  {
+    "id": 583,
+    "name": "Protein Electrophoresis (SKMH)",
+    "time": "AFTER 10 DAYS",
+    "price": 6600,
+    "keywords": [
+      "protein",
+      "electrophoresis",
+      "skmh"
+    ]
+  },
+  {
+    "id": 584,
+    "name": "Protein-C",
+    "time": "AFTER 7 DAYS",
+    "price": 6800,
+    "keywords": [
+      "protein"
+    ]
+  },
+  {
+    "id": 585,
+    "name": "Prothrombin",
+    "time": "After 24 Hours",
+    "price": 1300,
+    "keywords": [
+      "prothrombin"
+    ]
+  },
+  {
+    "id": 586,
+    "name": "PS A (Prostate Specific Antigen)",
+    "time": "After 24 Hours",
+    "price": 3600,
+    "keywords": [
+      "ps",
+      "prostate",
+      "specific",
+      "antigen",
+      "prostate specific antigen"
+    ]
+  },
+  {
+    "id": 587,
+    "name": "PS A Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3700,
+    "keywords": [
+      "ps",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 588,
+    "name": "Pus For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "pus",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 589,
+    "name": "Pus For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "pus",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 590,
+    "name": "Pus For C/S",
+    "time": "AFTER FOUR DAYS",
+    "price": 3000,
+    "keywords": [
+      "pus",
+      "for"
+    ]
+  },
+  {
+    "id": 591,
+    "name": "Pus For C/S ( Aerobic)",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "pus",
+      "for",
+      "aerobic"
+    ]
+  },
+  {
+    "id": 592,
+    "name": "Pus For C/S ( Anarobic)",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "pus",
+      "for",
+      "anarobic"
+    ]
+  },
+  {
+    "id": 593,
+    "name": "Pus For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 3000,
+    "keywords": [
+      "pus",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 594,
+    "name": "Pus For Fungus C/S",
+    "time": "AFTER",
+    "price": 3600,
+    "keywords": [
+      "pus",
+      "for",
+      "fungus"
+    ]
+  },
+  {
+    "id": 595,
+    "name": "Pus For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "pus",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 596,
+    "name": "Pus Swab For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "pus",
+      "swab",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 597,
+    "name": "R A Factor Quantitative",
+    "time": "After 48 Hours",
+    "price": 1800,
+    "keywords": [
+      "factor",
+      "quantitative"
+    ]
+  },
+  {
+    "id": 598,
+    "name": "Red Cell (R.B.Cs) Folate Level",
+    "time": "AFTER FOUR DAYS",
+    "price": 3200,
+    "keywords": [
+      "red",
+      "cell",
+      "cs",
+      "folate",
+      "level",
+      "r.b.cs"
+    ]
+  },
+  {
+    "id": 599,
+    "name": "Red Cell Antibody Screen / Indirect Coombs",
+    "time": "After 48 Hours",
+    "price": 1400,
+    "keywords": [
+      "red",
+      "cell",
+      "antibody",
+      "screen",
+      "indirect",
+      "coombs"
+    ]
+  },
+  {
+    "id": 600,
+    "name": "Red Cell Phenotyping",
+    "time": "AFTER 10 DAYS",
+    "price": 10000,
+    "keywords": [
+      "red",
+      "cell",
+      "phenotyping"
+    ]
+  },
+  {
+    "id": 601,
+    "name": "Reducing Substance (Stool)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "reducing",
+      "substance",
+      "stool"
+    ]
+  },
+  {
+    "id": 602,
+    "name": "Reducing Substances (Urine)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "reducing",
+      "substances",
+      "urine"
+    ]
+  },
+  {
+    "id": 603,
+    "name": "Renal Biopsy - Comprehensive including histology, special stain &",
+    "time": "AFTER 10 DAYS",
+    "price": 14500,
+    "keywords": [
+      "renal",
+      "biopsy",
+      "comprehensive",
+      "including",
+      "histology",
+      "special",
+      "stain"
+    ]
+  },
+  {
+    "id": 604,
+    "name": "immunofluorescence Renal Biopsy (Gross, Microscopy, Special & Immunofluorescence Stains)",
+    "time": "AFTER",
+    "price": 19300,
+    "keywords": [
+      "immunofluorescence",
+      "renal",
+      "biopsy",
+      "gross",
+      "microscopy",
+      "special",
+      "stains",
+      "gross, microscopy, special & immunofluorescence stains",
+      "gross,",
+      "microscopy,"
+    ]
+  },
+  {
+    "id": 605,
+    "name": "Renal Function Test (RFTs)",
+    "time": "After 24 Hours",
+    "price": 2000,
+    "keywords": [
+      "renal",
+      "function",
+      "test",
+      "rfts",
+      "rft",
+      "kidney"
+    ]
+  },
+  {
+    "id": 606,
+    "name": "Renal Stone Analysis",
+    "time": "After 24 Hours",
+    "price": 4000,
+    "keywords": [
+      "renal",
+      "stone",
+      "analysis"
+    ]
+  },
+  {
+    "id": 607,
+    "name": "Respiratory Pathogens Panel by PCR",
+    "time": "After 72 Hours",
+    "price": 23700,
+    "keywords": [
+      "respiratory",
+      "pathogens",
+      "panel",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 608,
+    "name": "Reticulocytes",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "reticulocytes"
+    ]
+  },
+  {
+    "id": 609,
+    "name": "Rh. Anti body Titration",
+    "time": "After 24 Hours",
+    "price": 5500,
+    "keywords": [
+      "rh",
+      "anti",
+      "body",
+      "titration"
+    ]
+  },
+  {
+    "id": 610,
+    "name": "Ristocetin Cofactor Activity",
+    "time": "AFTER FOUR WEEKS",
+    "price": 10000,
+    "keywords": [
+      "ristocetin",
+      "cofactor",
+      "activity"
+    ]
+  },
+  {
+    "id": 611,
+    "name": "Rotavirus and Adenovirus Antigen",
+    "time": "AFTER ONE WEEK",
+    "price": 4000,
+    "keywords": [
+      "rotavirus",
+      "and",
+      "adenovirus",
+      "antigen"
+    ]
+  },
+  {
+    "id": 612,
+    "name": "RPR IN CSF",
+    "time": "AFTER FOUR DAYS",
+    "price": 2400,
+    "keywords": [
+      "rpr",
+      "in",
+      "csf"
+    ]
+  },
+  {
+    "id": 613,
+    "name": "SAAG (serum ascites albumin gradient)",
+    "time": "After 24 Hours",
+    "price": 1400,
+    "keywords": [
+      "saag",
+      "serum",
+      "ascites",
+      "albumin",
+      "gradient",
+      "serum ascites albumin gradient"
+    ]
+  },
+  {
+    "id": 614,
+    "name": "SAL L 4 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 2700,
+    "keywords": [
+      "sal",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 615,
+    "name": "S AT B2 Immunohistochemistry",
+    "time": "AFTER 6 DAYS",
+    "price": 3150,
+    "keywords": [
+      "at",
+      "b2",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 616,
+    "name": "Semen For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "semen",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 617,
+    "name": "Semen For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "semen",
+      "for"
+    ]
+  },
+  {
+    "id": 618,
+    "name": "Semen For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "semen",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 619,
+    "name": "Serum Androstendione Level",
+    "time": "After 24 Hours",
+    "price": 3300,
+    "keywords": [
+      "serum",
+      "androstendione",
+      "level"
+    ]
+  },
+  {
+    "id": 620,
+    "name": "Serum Anti GAD 65",
+    "time": "After 72 Hours",
+    "price": 14000,
+    "keywords": [
+      "serum",
+      "anti",
+      "gad",
+      "65"
+    ]
+  },
+  {
+    "id": 621,
+    "name": "Serum Chlamydia IgG",
+    "time": "AFTER FOUR WEEKS",
+    "price": 4500,
+    "keywords": [
+      "serum",
+      "chlamydia",
+      "igg"
+    ]
+  },
+  {
+    "id": 622,
+    "name": "Serum Dihydrotestosterone (DHT)",
+    "time": "AFTER FIVE DAYS",
+    "price": 5000,
+    "keywords": [
+      "serum",
+      "dihydrotestosterone",
+      "dht"
+    ]
+  },
+  {
+    "id": 623,
+    "name": "Serum Electrolytes",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "serum",
+      "electrolytes"
+    ]
+  },
+  {
+    "id": 624,
+    "name": "Serum Free Kappa Light Chain",
+    "time": "After 72 Hours",
+    "price": 4400,
+    "keywords": [
+      "serum",
+      "free",
+      "kappa",
+      "light",
+      "chain"
+    ]
+  },
+  {
+    "id": 625,
+    "name": "Serum Free Lambda Light Chain",
+    "time": "After 72 Hours",
+    "price": 4400,
+    "keywords": [
+      "serum",
+      "free",
+      "lambda",
+      "light",
+      "chain"
+    ]
+  },
+  {
+    "id": 626,
+    "name": "Serum F TA -Absorption (Fluorescent Treponemal Antibodies )",
+    "time": "AFTER ONE WEEK",
+    "price": 6200,
+    "keywords": [
+      "serum",
+      "ta",
+      "absorption",
+      "fluorescent",
+      "treponemal",
+      "antibodies",
+      "fluorescent treponemal antibodies"
+    ]
+  },
+  {
+    "id": 627,
+    "name": "Serum Human Ig G-4",
+    "time": "AFTER 7 DAYS",
+    "price": 9650,
+    "keywords": [
+      "serum",
+      "human",
+      "ig"
+    ]
+  },
+  {
+    "id": 628,
+    "name": "Serum Osteocalcin",
+    "time": "AFTER FIVE DAYS",
+    "price": 3300,
+    "keywords": [
+      "serum",
+      "osteocalcin"
+    ]
+  },
+  {
+    "id": 629,
+    "name": "Serum PIVK A - II Level",
+    "time": "After 48 Hours",
+    "price": 3500,
+    "keywords": [
+      "serum",
+      "pivk",
+      "ii",
+      "level"
+    ]
+  },
+  {
+    "id": 630,
+    "name": "Serum Thyroglobulin (Anti-Tg)",
+    "time": "After 48 Hours",
+    "price": 2900,
+    "keywords": [
+      "serum",
+      "thyroglobulin",
+      "anti",
+      "tg",
+      "anti-tg"
+    ]
+  },
+  {
+    "id": 631,
+    "name": "Serum Treponema Pallidum Antibodies (Syphilis)",
+    "time": "After 72 Hours",
+    "price": 2200,
+    "keywords": [
+      "serum",
+      "treponema",
+      "pallidum",
+      "antibodies",
+      "syphilis"
+    ]
+  },
+  {
+    "id": 632,
+    "name": "Serum Voriconazole",
+    "time": "After 72 Hours",
+    "price": 14000,
+    "keywords": [
+      "serum",
+      "voriconazole"
+    ]
+  },
+  {
+    "id": 633,
+    "name": "Sex Hormone Binding Globulin (SHBG)",
+    "time": "After 72 Hours",
+    "price": 2700,
+    "keywords": [
+      "sex",
+      "hormone",
+      "binding",
+      "globulin",
+      "shbg"
+    ]
+  },
+  {
+    "id": 634,
+    "name": "SGO T (AST)",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "sgo",
+      "ast"
+    ]
+  },
+  {
+    "id": 635,
+    "name": "SGP T (ALT)",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "sgp",
+      "alt"
+    ]
+  },
+  {
+    "id": 636,
+    "name": "Slide For Review Histopathology",
+    "time": "AFTER 7 DAYS",
+    "price": 4300,
+    "keywords": [
+      "slide",
+      "for",
+      "review",
+      "histopathology"
+    ]
+  },
+  {
+    "id": 637,
+    "name": "SM A Immunohistochemistry",
+    "time": "AFTER 10 DAYS",
+    "price": 3150,
+    "keywords": [
+      "sm",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 638,
+    "name": "Sodium",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "sodium"
+    ]
+  },
+  {
+    "id": 639,
+    "name": "Sodium (Fluid)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "sodium",
+      "fluid"
+    ]
+  },
+  {
+    "id": 640,
+    "name": "Sodium Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "sodium",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 641,
+    "name": "Spot Protein (Urine)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "spot",
+      "protein",
+      "urine"
+    ]
+  },
+  {
+    "id": 642,
+    "name": "Spot Protein / Creatinine Ratio Urine",
+    "time": "After 24 Hours",
+    "price": 1700,
+    "keywords": [
+      "spot",
+      "protein",
+      "creatinine",
+      "ratio",
+      "urine"
+    ]
+  },
+  {
+    "id": 643,
+    "name": "Spot Urinary Phosphate",
+    "time": "After 24 Hours",
+    "price": 800,
+    "keywords": [
+      "spot",
+      "urinary",
+      "phosphate"
+    ]
+  },
+  {
+    "id": 644,
+    "name": "Spot urine for magnesium",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "spot",
+      "urine",
+      "for",
+      "magnesium"
+    ]
+  },
+  {
+    "id": 645,
+    "name": "Sputum For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "sputum",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 646,
+    "name": "Sputum For AFB Smear / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "sputum",
+      "for",
+      "afb",
+      "smear",
+      "zn",
+      "stain"
+    ]
+  },
+  {
+    "id": 647,
+    "name": "Sputum For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "sputum",
+      "for"
+    ]
+  },
+  {
+    "id": 648,
+    "name": "Sputum for C/S (Anaerobic)",
+    "time": "AFTER FOUR DAYS",
+    "price": 3000,
+    "keywords": [
+      "sputum",
+      "for",
+      "anaerobic"
+    ]
+  },
+  {
+    "id": 649,
+    "name": "Sputum For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "sputum",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 650,
+    "name": "Sputum For Fungus examination",
+    "time": "After 48 Hours",
+    "price": 10600,
+    "keywords": [
+      "sputum",
+      "for",
+      "fungus",
+      "examination"
+    ]
+  },
+  {
+    "id": 651,
+    "name": "Sputum For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "sputum",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 652,
+    "name": "Stool culture for E. coli O157",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "stool",
+      "culture",
+      "for",
+      "coli",
+      "o157"
+    ]
+  },
+  {
+    "id": 653,
+    "name": "Stool For C/E",
+    "time": "After 24 Hours",
+    "price": 1100,
+    "keywords": [
+      "stool",
+      "for"
+    ]
+  },
+  {
+    "id": 654,
+    "name": "Stool For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "stool",
+      "for"
+    ]
+  },
+  {
+    "id": 655,
+    "name": "Stool for Clostridium Di fficile toxin",
+    "time": "After 72 Hours",
+    "price": 5200,
+    "keywords": [
+      "stool",
+      "for",
+      "clostridium",
+      "di",
+      "fficile",
+      "toxin"
+    ]
+  },
+  {
+    "id": 656,
+    "name": "Stool For Occult Blood",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "stool",
+      "for",
+      "occult",
+      "blood"
+    ]
+  },
+  {
+    "id": 657,
+    "name": "Stool for pH",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "stool",
+      "for",
+      "ph"
+    ]
+  },
+  {
+    "id": 658,
+    "name": "Sugar Fasting (Urine)",
+    "time": "After 24 Hours",
+    "price": 600,
+    "keywords": [
+      "sugar",
+      "fasting",
+      "urine"
+    ]
+  },
+  {
+    "id": 659,
+    "name": "Surveillance Report (1 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 1200,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "1 specimen"
+    ]
+  },
+  {
+    "id": 660,
+    "name": "Surveillance Report (10 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 11500,
+    "keywords": [
+      "surveillance",
+      "report",
+      "10",
+      "specimen",
+      "10 specimen"
+    ]
+  },
+  {
+    "id": 661,
+    "name": "Surveillance Report (2 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 2300,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "2 specimen"
+    ]
+  },
+  {
+    "id": 662,
+    "name": "Surveillance Report (20 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 23000,
+    "keywords": [
+      "surveillance",
+      "report",
+      "20",
+      "specimen",
+      "20 specimen"
+    ]
+  },
+  {
+    "id": 663,
+    "name": "Surveillance Report (3 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 3500,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "3 specimen"
+    ]
+  },
+  {
+    "id": 664,
+    "name": "Surveillance Report (4 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 4600,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "4 specimen"
+    ]
+  },
+  {
+    "id": 665,
+    "name": "Surveillance Report (40 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 45800,
+    "keywords": [
+      "surveillance",
+      "report",
+      "40",
+      "specimen",
+      "40 specimen"
+    ]
+  },
+  {
+    "id": 666,
+    "name": "Surveillance Report (5 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 5800,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "5 specimen"
+    ]
+  },
+  {
+    "id": 667,
+    "name": "Surveillance Report (6 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 7000,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "6 specimen"
+    ]
+  },
+  {
+    "id": 668,
+    "name": "Surveillance Report (7 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 8100,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "7 specimen"
+    ]
+  },
+  {
+    "id": 669,
+    "name": "Surveillance Report (8 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 9300,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "8 specimen"
+    ]
+  },
+  {
+    "id": 670,
+    "name": "Surveillance Report (9 Specimen)",
+    "time": "AFTER 7 DAYS",
+    "price": 10400,
+    "keywords": [
+      "surveillance",
+      "report",
+      "specimen",
+      "9 specimen"
+    ]
+  },
+  {
+    "id": 671,
+    "name": "Swab For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "swab",
+      "for"
+    ]
+  },
+  {
+    "id": 672,
+    "name": "Synaptophysin Immunohistochemistry",
+    "time": "After 72 Hours",
+    "price": 3150,
+    "keywords": [
+      "synaptophysin",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 673,
+    "name": "Synovial Fluid C/E",
+    "time": "After 48 Hours",
+    "price": 2800,
+    "keywords": [
+      "synovial",
+      "fluid"
+    ]
+  },
+  {
+    "id": 674,
+    "name": "Synovial Fluid For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "synovial",
+      "fluid",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 675,
+    "name": "Synovial Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "synovial",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 676,
+    "name": "Synovial Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "synovial",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 677,
+    "name": "Synovial Fluid For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "synovial",
+      "fluid",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 678,
+    "name": "Synovial Fluid For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "synovial",
+      "fluid",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 679,
+    "name": "Syphilis (VDRL) Screening",
+    "time": "After 24 Hours",
+    "price": 2100,
+    "keywords": [
+      "syphilis",
+      "vdrl",
+      "screening"
+    ]
+  },
+  {
+    "id": 680,
+    "name": "T3",
+    "time": "After 24 Hours",
+    "price": 1900,
+    "keywords": [
+      "t3"
+    ]
+  },
+  {
+    "id": 681,
+    "name": "T4",
+    "time": "After 24 Hours",
+    "price": 1900,
+    "keywords": [
+      "t4"
+    ]
+  },
+  {
+    "id": 682,
+    "name": "Tacrolimus",
+    "time": "After 48 Hours",
+    "price": 9000,
+    "keywords": [
+      "tacrolimus"
+    ]
+  },
+  {
+    "id": 683,
+    "name": "Therapeutic (Phlebotomy)",
+    "time": "ON CALL",
+    "price": 1150,
+    "keywords": [
+      "therapeutic",
+      "phlebotomy"
+    ]
+  },
+  {
+    "id": 684,
+    "name": "Throat Swab For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "throat",
+      "swab",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 685,
+    "name": "Throat Swab For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "throat",
+      "swab",
+      "for"
+    ]
+  },
+  {
+    "id": 686,
+    "name": "Throat Swab For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "throat",
+      "swab",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 687,
+    "name": "Throat Swab for KLB (Albert Stain)",
+    "time": "After 72 Hours",
+    "price": 1200,
+    "keywords": [
+      "throat",
+      "swab",
+      "for",
+      "klb",
+      "albert",
+      "stain",
+      "albert stain"
+    ]
+  },
+  {
+    "id": 688,
+    "name": "Thyroid Cyst Fluid For C/E",
+    "time": "After 12 Hours",
+    "price": 2800,
+    "keywords": [
+      "thyroid",
+      "cyst",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 689,
+    "name": "Thyroid Function Test (FT3,FT4,TSH)",
+    "time": "After 24 Hours",
+    "price": 6900,
+    "keywords": [
+      "thyroid",
+      "function",
+      "test",
+      "ft3",
+      "ft4",
+      "tsh",
+      "ft3,ft4,tsh",
+      "tft"
+    ]
+  },
+  {
+    "id": 690,
+    "name": "Thyroid Function Test (T3,T4,TSH)",
+    "time": "After 24 Hours",
+    "price": 4700,
+    "keywords": [
+      "thyroid",
+      "function",
+      "test",
+      "t3",
+      "t4",
+      "tsh",
+      "t3,t4,tsh",
+      "tft"
+    ]
+  },
+  {
+    "id": 691,
+    "name": "Thyroid Peroxidase Antibodies (Anti-TPO)",
+    "time": "After 72 Hours",
+    "price": 2300,
+    "keywords": [
+      "thyroid",
+      "peroxidase",
+      "antibodies",
+      "anti",
+      "tpo",
+      "anti-tpo"
+    ]
+  },
+  {
+    "id": 692,
+    "name": "TIBC",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "tibc"
+    ]
+  },
+  {
+    "id": 693,
+    "name": "Tip For C/S",
+    "time": "AFTER FOUR DAYS",
+    "price": 2500,
+    "keywords": [
+      "tip",
+      "for"
+    ]
+  },
+  {
+    "id": 694,
+    "name": "Tip for C/S (Anaerobic)",
+    "time": "After 72 Hours",
+    "price": 2800,
+    "keywords": [
+      "tip",
+      "for",
+      "anaerobic"
+    ]
+  },
+  {
+    "id": 695,
+    "name": "Tissue For AFB Stain / ZN Stain",
+    "time": "AFTER 7 DAYS",
+    "price": 1100,
+    "keywords": [
+      "tissue",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 696,
+    "name": "Tissue For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "tissue",
+      "for"
+    ]
+  },
+  {
+    "id": 697,
+    "name": "TLE-1 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "tle",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 698,
+    "name": "Torch Profile",
+    "time": "AFTER 7 DAYS",
+    "price": 11000,
+    "keywords": [
+      "torch",
+      "profile"
+    ]
+  },
+  {
+    "id": 699,
+    "name": "Total Calcium",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "total",
+      "calcium"
+    ]
+  },
+  {
+    "id": 700,
+    "name": "Total Protein",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "total",
+      "protein"
+    ]
+  },
+  {
+    "id": 701,
+    "name": "Total Testosterone",
+    "time": "After 24 Hours",
+    "price": 2400,
+    "keywords": [
+      "total",
+      "testosterone"
+    ]
+  },
+  {
+    "id": 702,
+    "name": "Tracheal Secretion for AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "tracheal",
+      "secretion",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 703,
+    "name": "Tracheal Secretion for C/S (Aerobic)",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "tracheal",
+      "secretion",
+      "for",
+      "aerobic"
+    ]
+  },
+  {
+    "id": 704,
+    "name": "Tracheal Secretion for C/S (Anaerobic)",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "tracheal",
+      "secretion",
+      "for",
+      "anaerobic"
+    ]
+  },
+  {
+    "id": 705,
+    "name": "Tracheal Secretion for Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "tracheal",
+      "secretion",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 706,
+    "name": "Transferrin Saturation",
+    "time": "NEX T DAY",
+    "price": 1900,
+    "keywords": [
+      "transferrin",
+      "saturation"
+    ]
+  },
+  {
+    "id": 707,
+    "name": "Triglycerides",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "triglycerides"
+    ]
+  },
+  {
+    "id": 708,
+    "name": "Tropical Fever Pathogens Panel by PCR",
+    "time": "After 48 Hours",
+    "price": 10500,
+    "keywords": [
+      "tropical",
+      "fever",
+      "pathogens",
+      "panel",
+      "by",
+      "pcr"
+    ]
+  },
+  {
+    "id": 709,
+    "name": "Troponin-I (Quantitative-hs)",
+    "time": "After 8 Hours",
+    "price": 3100,
+    "keywords": [
+      "troponin",
+      "quantitative",
+      "hs",
+      "quantitative-hs"
+    ]
+  },
+  {
+    "id": 710,
+    "name": "TSH",
+    "time": "After 24 Hours",
+    "price": 2000,
+    "keywords": [
+      "tsh"
+    ]
+  },
+  {
+    "id": 711,
+    "name": "T-Spot TB Test",
+    "time": "AFTER",
+    "price": 19800,
+    "keywords": [
+      "spot",
+      "tb",
+      "test"
+    ]
+  },
+  {
+    "id": 712,
+    "name": "Tzanck smear",
+    "time": "After 24 Hours",
+    "price": 1200,
+    "keywords": [
+      "tzanck",
+      "smear"
+    ]
+  },
+  {
+    "id": 713,
+    "name": "Urea",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "urea"
+    ]
+  },
+  {
+    "id": 714,
+    "name": "Urea (24 Hrs Urine)",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "urea",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 715,
+    "name": "Urea Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 900,
+    "keywords": [
+      "urea",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 716,
+    "name": "Uretheral Swab For C/S",
+    "time": "After 72 Hours",
+    "price": 3000,
+    "keywords": [
+      "uretheral",
+      "swab",
+      "for"
+    ]
+  },
+  {
+    "id": 717,
+    "name": "Urethral Swab for Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "urethral",
+      "swab",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 718,
+    "name": "Uric Acid",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "uric",
+      "acid"
+    ]
+  },
+  {
+    "id": 719,
+    "name": "Uric Acid (24 Hrs Urine)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "uric",
+      "acid",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 720,
+    "name": "Uric Acid / Creatinine Ratio",
+    "time": "After 24 Hours",
+    "price": 1500,
+    "keywords": [
+      "uric",
+      "acid",
+      "creatinine",
+      "ratio"
+    ]
+  },
+  {
+    "id": 721,
+    "name": "Uric Acid Urine (Spot / Random)",
+    "time": "After 24 Hours",
+    "price": 1000,
+    "keywords": [
+      "uric",
+      "acid",
+      "urine",
+      "spot",
+      "random",
+      "spot / random"
+    ]
+  },
+  {
+    "id": 722,
+    "name": "Urinary Amylase",
+    "time": "After 24 Hours",
+    "price": 1800,
+    "keywords": [
+      "urinary",
+      "amylase"
+    ]
+  },
+  {
+    "id": 723,
+    "name": "Urine For Cytology",
+    "time": "AFTER FIVE DAYS",
+    "price": 2400,
+    "keywords": [
+      "urine",
+      "for",
+      "cytology"
+    ]
+  },
+  {
+    "id": 724,
+    "name": "Urine C/E",
+    "time": "After 8 Hours",
+    "price": 600,
+    "keywords": [
+      "urine",
+      "urine complete",
+      "urine routine",
+      "urinalysis"
+    ]
+  },
+  {
+    "id": 725,
+    "name": "Urine For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "urine",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 726,
+    "name": "Urine For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1020,
+    "keywords": [
+      "urine",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 727,
+    "name": "Urine for Barbiturates (BAR)",
+    "time": "After 48 Hours",
+    "price": 2200,
+    "keywords": [
+      "urine",
+      "for",
+      "barbiturates",
+      "bar"
+    ]
+  },
+  {
+    "id": 728,
+    "name": "Urine For Bile Pigment",
+    "time": "NEX T DAY",
+    "price": 800,
+    "keywords": [
+      "urine",
+      "for",
+      "bile",
+      "pigment"
+    ]
+  },
+  {
+    "id": 729,
+    "name": "Urine For C/S",
+    "time": "AFTER FOUR DAYS",
+    "price": 3000,
+    "keywords": [
+      "urine",
+      "for"
+    ]
+  },
+  {
+    "id": 730,
+    "name": "Urine For Drug Screen",
+    "time": "After 24 Hours",
+    "price": 7500,
+    "keywords": [
+      "urine",
+      "for",
+      "drug",
+      "screen"
+    ]
+  },
+  {
+    "id": 731,
+    "name": "Urine for Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "urine",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 732,
+    "name": "Urine for pH",
+    "time": "After 24 Hours",
+    "price": 400,
+    "keywords": [
+      "urine",
+      "for",
+      "ph"
+    ]
+  },
+  {
+    "id": 733,
+    "name": "Urine for protein Electrophoresis",
+    "time": "AFTER 9 DAYS",
+    "price": 17100,
+    "keywords": [
+      "urine",
+      "for",
+      "protein",
+      "electrophoresis"
+    ]
+  },
+  {
+    "id": 734,
+    "name": "Urine For Reducing Substance",
+    "time": "After 8 Hours",
+    "price": 600,
+    "keywords": [
+      "urine",
+      "for",
+      "reducing",
+      "substance"
+    ]
+  },
+  {
+    "id": 735,
+    "name": "Urine Organic Acid",
+    "time": "AFTER FOUR WEEKS",
+    "price": 9000,
+    "keywords": [
+      "urine",
+      "organic",
+      "acid"
+    ]
+  },
+  {
+    "id": 736,
+    "name": "Urine Sugar",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "urine",
+      "sugar"
+    ]
+  },
+  {
+    "id": 737,
+    "name": "Vaginal Swab for Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "vaginal",
+      "swab",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 738,
+    "name": "Valproic Acid (Epival)",
+    "time": "AFTER FOUR DAYS",
+    "price": 2800,
+    "keywords": [
+      "valproic",
+      "acid",
+      "epival"
+    ]
+  },
+  {
+    "id": 739,
+    "name": "Vancomycin",
+    "time": "AFTER ONE WEEK",
+    "price": 2800,
+    "keywords": [
+      "vancomycin"
+    ]
+  },
+  {
+    "id": 740,
+    "name": "Varicella Zoster Virus Ig G ELISA",
+    "time": "AFTER ONE WEEK",
+    "price": 5100,
+    "keywords": [
+      "varicella",
+      "zoster",
+      "virus",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 741,
+    "name": "Varicella Zoster Virus Ig M ELISA",
+    "time": "AFTER ONE WEEK",
+    "price": 5100,
+    "keywords": [
+      "varicella",
+      "zoster",
+      "virus",
+      "ig",
+      "elisa"
+    ]
+  },
+  {
+    "id": 742,
+    "name": "Venous Blood Gases (VBGs)",
+    "time": "After 24 Hours",
+    "price": 2200,
+    "keywords": [
+      "venous",
+      "blood",
+      "gases",
+      "vbgs"
+    ]
+  },
+  {
+    "id": 743,
+    "name": "Vitamin B12",
+    "time": "After 24 Hours",
+    "price": 2800,
+    "keywords": [
+      "vitamin",
+      "b12"
+    ]
+  },
+  {
+    "id": 744,
+    "name": "Vitreous Fluid (Eye) For Gram Stain",
+    "time": "After 24 Hours",
+    "price": 700,
+    "keywords": [
+      "vitreous",
+      "fluid",
+      "eye",
+      "for",
+      "gram",
+      "stain"
+    ]
+  },
+  {
+    "id": 745,
+    "name": "Vitreous For AFB Stain / ZN Stain",
+    "time": "After 24 Hours",
+    "price": 1020,
+    "keywords": [
+      "vitreous",
+      "for",
+      "afb",
+      "stain",
+      "zn"
+    ]
+  },
+  {
+    "id": 746,
+    "name": "Vitrous Fluid For AFB C/S",
+    "time": "AFTER 8 WEEKS",
+    "price": 9900,
+    "keywords": [
+      "vitrous",
+      "fluid",
+      "for",
+      "afb"
+    ]
+  },
+  {
+    "id": 747,
+    "name": "Vitrous Fluid For C/S",
+    "time": "After 72 Hours",
+    "price": 2680,
+    "keywords": [
+      "vitrous",
+      "fluid",
+      "for"
+    ]
+  },
+  {
+    "id": 748,
+    "name": "VM A (24 Hrs Urine)",
+    "time": "AFTER FIVE DAYS",
+    "price": 3100,
+    "keywords": [
+      "vm",
+      "24",
+      "hrs",
+      "urine",
+      "24 hrs urine"
+    ]
+  },
+  {
+    "id": 750,
+    "name": "VTM- Virus Inactivation & Transportation Medium",
+    "time": "After 72 Hours",
+    "price": 1200,
+    "keywords": [
+      "vtm",
+      "virus",
+      "inactivation",
+      "transportation",
+      "medium"
+    ]
+  },
+  {
+    "id": 752,
+    "name": "WBC (TLC)",
+    "time": "After 8 Hours",
+    "price": 600,
+    "keywords": [
+      "wbc",
+      "tlc"
+    ]
+  },
+  {
+    "id": 757,
+    "name": "WT-1 Immunohistochemistry",
+    "time": "AFTER FIVE DAYS",
+    "price": 3150,
+    "keywords": [
+      "wt",
+      "immunohistochemistry"
+    ]
+  },
+  {
+    "id": 758,
+    "name": "Zinc Level",
+    "time": "AFTER",
+    "price": 4300,
+    "keywords": [
+      "zinc",
+      "level"
+    ]
+  }
+]

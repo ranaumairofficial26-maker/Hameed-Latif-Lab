@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HammadLatifLab.ChatBot.Api/HammadLatifLab.ChatBot.Api.csproj" />
+    <Project Path="src/HammadLatifLab.ChatBot.Application/HammadLatifLab.ChatBot.Application.csproj" />
+    <Project Path="src/HammadLatifLab.ChatBot.Domain/HammadLatifLab.ChatBot.Domain.csproj" />
+    <Project Path="src/HammadLatifLab.ChatBot.Infrastructure/HammadLatifLab.ChatBot.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/HammadLatifLab.ChatBot.Tests/HammadLatifLab.ChatBot.Tests.csproj" />
+  </Folder>
+</Solution>

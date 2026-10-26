@@ -1,59 +1,82 @@
-# HameedLatifAngular
+# Hameed Latif Hospital Laboratories
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.0.4.
+Full-stack medical diagnostic laboratory platform featuring an Angular 22 frontend and a secure .NET 8 Clean Architecture AI ChatBot API powered by Google Gemini.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🏗️ Architecture Overview
 
+- **Frontend (`frontend/`)**: Angular 22 (Zoneless architecture with Signals, Standalone Components, responsive Tailwind-free modern CSS).
+- **Backend (`backend/`)**: .NET 8 (C# 12) Web API with Clean Architecture:
+  - **API Layer**: Controllers, IP-based Rate Limiting (Fixed window: 30 req/min), FluentValidation, global RFC 7807 Exception Handling middleware, Swagger/OpenAPI.
+  - **Application Layer**: Grounded Chat Service, Dynamic Prompt Builder, Response Sanitizer, DTOs, and Interfaces.
+  - **Domain Layer**: Diagnostic Test entities, FAQ entities, Repository contracts.
+  - **Infrastructure Layer**: JSON Test Catalog Repository (750+ verified lab tests extracted from official price lists), JSON FAQ Repository, In-memory conversation session store (6-message rolling context, 30-min TTL), and resilient `GeminiClient`.
+  - **Tests Layer**: xUnit test suite (22 unit tests covering PromptBuilder, ResponseSanitizer, Repositories, and Session Store).
+
+---
+
+## 🔐 Security & Gemini API Configuration
+
+**CRITICAL:** The Google Gemini API key is **never** committed to Git or exposed in the frontend bundle. The frontend communicates exclusively with the backend proxy endpoint.
+
+### 1. Environment Variable (Recommended for Production & Cloud)
+Set the `GEMINI_API_KEY` environment variable in your hosting platform (Docker, Render, Railway, Azure, etc.):
 ```bash
-ng serve
+export GEMINI_API_KEY="your_actual_gemini_api_key_here"
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+### 2. Local Development Configuration
+For local development, copy the `.env.example` or create `backend/src/HammadLatifLab.ChatBot.Api/appsettings.Development.json` (which is excluded in `.gitignore`):
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug"
+    }
+  },
+  "Gemini": {
+    "ApiKey": "your_local_gemini_api_key"
+  }
+}
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
+## 🚀 Getting Started Locally
+
+### Prerequisites
+- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [Node.js](https://nodejs.org/) (v20+ recommended) & npm
+
+### 1. Run the Backend API (.NET 8)
 ```bash
-ng generate --help
+cd backend/src/HammadLatifLab.ChatBot.Api
+dotnet run --urls="http://localhost:5153"
+```
+The API is available at `http://localhost:5153` (Swagger UI at `http://localhost:5153/swagger`, Health at `http://localhost:5153/health`).
+
+### 2. Run the Frontend (Angular 22)
+```bash
+cd frontend
+npm install
+npm start -- --port 4300
+```
+Open `http://localhost:4300` in your browser.
+
+---
+
+## 🧪 Testing & Verification
+
+### Run Backend Unit Tests
+```bash
+cd backend
+dotnet test HammadLatifLab.ChatBot.sln
 ```
 
-## Building
-
-To build the project run:
-
+### Build Production Frontend Bundle
 ```bash
-ng build
+cd frontend
+npm run build
 ```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Build output will be located in `frontend/dist/hameed-latif-angular`.

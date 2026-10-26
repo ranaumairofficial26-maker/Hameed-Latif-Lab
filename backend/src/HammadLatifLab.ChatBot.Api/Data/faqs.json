@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "category": "Home Sampling",
+    "question": "How can I book home sampling for laboratory blood tests?",
+    "questionUrdu": "Home sampling kaisay book karein? Kya ghar aakar sample lein ge?",
+    "keywords": [
+      "home sample",
+      "home sampling",
+      "blood collection",
+      "ghar",
+      "sample collection",
+      "home blood test"
+    ],
+    "answer": "Hammad Latif Lab offers free home sampling across Lahore. You can book home sample collection by calling our helpline at +92-42-111-455-522, via WhatsApp at +92-300-1234567, or through the 'Request Home Sampling' form on our website. Our phlebotomist will arrive with sterile collection equipment."
+  },
+  {
+    "id": 2,
+    "category": "Timings & Locations",
+    "question": "What are your laboratory operational hours and location?",
+    "questionUrdu": "Lab ke timings kya hain? Kis waqt khuli hoti hai aur location kahan hai?",
+    "keywords": [
+      "timings",
+      "timing",
+      "hours",
+      "open",
+      "address",
+      "location",
+      "khuli",
+      "kahan"
+    ],
+    "answer": "Our Main Diagnostic Center at Hammad Latif Hospital, Ferozepur Road, Lahore is open 24 hours a day, 7 days a week (24/7). All satellite collection centers operate from 8:00 AM to 10:00 PM Monday through Saturday, and 8:00 AM to 6:00 PM on Sundays."
+  },
+  {
+    "id": 3,
+    "category": "Test Preparation",
+    "question": "Do I need fasting before a Fasting Blood Sugar (FBS) or Lipid Profile test?",
+    "questionUrdu": "Lipid Profile ya Sugar test ke liye bhooka rehna zaruri hai? Fasting kitni honi chahiye?",
+    "keywords": [
+      "fasting",
+      "fast",
+      "sugar",
+      "fbs",
+      "lipid",
+      "cholesterol",
+      "bhooka",
+      "preparation",
+      "pani"
+    ],
+    "answer": "Yes. Fasting Blood Sugar (FBS) requires 8 to 10 hours of fasting. A Lipid Profile test requires 10 to 12 hours of overnight fasting. During fasting, you may drink plain water only. Please avoid tea, coffee, smoking, or chewing gum before the sample is drawn."
+  },
+  {
+    "id": 4,
+    "category": "Reports",
+    "question": "How can I access or download my laboratory test reports online?",
+    "questionUrdu": "Online report kaisay download karein? Report kab tak mile gi?",
+    "keywords": [
+      "report",
+      "reports",
+      "online",
+      "download",
+      "result",
+      "mr number",
+      "token"
+    ],
+    "answer": "You can download your reports from our website by clicking 'Online Reports' and entering your Lab Number and Password/MR Number printed on your original receipt. You will also receive an SMS alert with a secure PDF link as soon as your report is signed off."
+  },
+  {
+    "id": 5,
+    "category": "Turnaround Time",
+    "question": "What is the turnaround time for CBC (Complete Blood Count) and routine tests?",
+    "questionUrdu": "CBC test ki report kitni der mein mil jati hai? Routine tests ka time?",
+    "keywords": [
+      "cbc",
+      "complete blood count",
+      "routine",
+      "turnaround",
+      "time",
+      "kab milegi",
+      "report time"
+    ],
+    "answer": "Routine hematology and clinical pathology tests such as CBC, Urine Routine Examination, and Blood Sugar are delivered within 4 to 6 hours on the same day. Specialized hormones and culture reports take 24 to 72 hours."
+  }
+]

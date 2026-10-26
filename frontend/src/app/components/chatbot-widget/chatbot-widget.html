@@ -1,0 +1,137 @@
+<div class="chatbot-root">
+  <!-- 1. Floating Teaser Badge (Shown when chat is closed) -->
+  @if (!isOpen() && !isBadgeDismissed()) {
+    <div class="chat-teaser-bubble" (click)="toggleChat()">
+      <div class="teaser-pulse-indicator"></div>
+      <div class="teaser-content">
+        <span class="teaser-title">Do you have any questions?</span>
+        <span class="teaser-subtitle">Ask our 24/7 Lab Assistant</span>
+      </div>
+      <button class="teaser-close-btn" (click)="dismissBadge($event)" title="Dismiss">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  }
+
+  <!-- 2. Floating Action Button (Green Theme) -->
+  <button 
+    class="chatbot-toggle-btn" 
+    [class.active]="isOpen()" 
+    (click)="toggleChat()" 
+    aria-label="Toggle Laboratory Chatbot"
+    title="Hammad Latif Lab AI Assistant">
+    @if (!isOpen()) {
+      <div class="btn-icon-wrapper">
+        <!-- Medical Chat Bot Icon -->
+        <svg class="main-chat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          <circle cx="9" cy="11.5" r="1" fill="currentColor"></circle>
+          <circle cx="15" cy="11.5" r="1" fill="currentColor"></circle>
+          <path d="M12 7.5v-2" stroke-linecap="round"></path>
+        </svg>
+        <span class="online-status-dot"></span>
+      </div>
+    } @else {
+      <!-- Close 'X' Icon -->
+      <svg class="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    }
+  </button>
+
+  <!-- 3. Chat Window Dialog -->
+  @if (isOpen()) {
+    <div class="chat-window" role="dialog" aria-label="Lab Assistant Chat">
+      <!-- Chat Header -->
+      <header class="chat-header">
+        <div class="header-info">
+          <div class="bot-avatar-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2v3m-3 14h6m-9-6h12a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2zm1 4v3m10-3v3"></path>
+            </svg>
+          </div>
+          <div class="header-titles">
+            <h3 class="header-title">Hammad Latif Lab Assistant</h3>
+            <span class="header-status">
+              <span class="live-dot"></span> Verified Laboratory AI • Online 24/7
+            </span>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="header-btn" (click)="toggleChat()" title="Close chat">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Messages Body -->
+      <div class="chat-messages" #messagesContainer>
+        @for (msg of messages(); track msg.id) {
+          <div class="message-wrapper" [class.user]="msg.sender === 'user'" [class.bot]="msg.sender === 'bot'">
+            @if (msg.sender === 'bot') {
+              <div class="bot-avatar-mini">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a4 4 0 0 1 4 4v1h2a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2V6a4 4 0 0 1 4-4z"></path>
+                </svg>
+              </div>
+            }
+            <div class="message-bubble" [class.bot-bubble]="msg.sender === 'bot'" [class.user-bubble]="msg.sender === 'user'">
+              <div class="bubble-text">{{ msg.text }}</div>
+              <div class="bubble-time">{{ msg.time }}</div>
+            </div>
+          </div>
+        }
+
+        <!-- Loading / Typing Indicator -->
+        @if (isLoading()) {
+          <div class="message-wrapper bot">
+            <div class="bot-avatar-mini">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a4 4 0 0 1 4 4v1h2a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2V6a4 4 0 0 1 4-4z"></path>
+              </svg>
+            </div>
+            <div class="message-bubble bot-bubble typing-bubble">
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+              <span class="typing-dot"></span>
+            </div>
+          </div>
+        }
+      </div>
+
+      <!-- Footer / Input Form -->
+      <footer class="chat-footer">
+        <form class="input-form" (ngSubmit)="sendMessage()">
+          <input 
+            type="text" 
+            class="chat-input" 
+            [(ngModel)]="inputText" 
+            name="chatInput" 
+            placeholder="Type question in English or Roman Urdu..." 
+            [disabled]="isLoading()" 
+            autocomplete="off" />
+          <button 
+            type="submit" 
+            class="send-btn" 
+            [disabled]="!inputText.trim() || isLoading()" 
+            title="Send Message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </form>
+        <div class="chat-disclaimer">
+          Hammad Latif Lab Verified Facts • Helpline: <strong>+92-42-111-455-522</strong>
+        </div>
+      </footer>
+    </div>
+  }
+</div>
