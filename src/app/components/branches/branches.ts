@@ -25,7 +25,7 @@ export class Branches {
       address: '14 - Abu Bakar Block, New Garden Town, Lahore',
       area: 'Ferozepur Road',
       badge: 'Main Campus • 24/7',
-      image: 'images/branches/main_branch.png',
+      image: 'images/branches/main_hospital_tower.png',
       timings: '24 Hours / 7 Days',
       phone: '+92 311 1222873',
       mapsUrl: 'https://maps.google.com/?q=Hameed+Latif+Hospital+Lahore',
