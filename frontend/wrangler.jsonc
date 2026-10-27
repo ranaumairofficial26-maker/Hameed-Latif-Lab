@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hameed-latif-frontend",
+  "compatibility_date": "2026-10-27",
+  "assets": {
+    "directory": "./dist/hameed-latif-angular/browser",
+    "not_found_handling": "single-page-application"
+  }
+}
