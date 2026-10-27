@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost:5153/api',
+  apiUrl: 'https://hameed-latif-backend.onrender.com/api',
 };

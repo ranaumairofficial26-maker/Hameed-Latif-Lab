@@ -24,7 +24,8 @@ public static class DependencyInjection
         {
             configuration.GetSection(GeminiOptions.SectionName).Bind(options);
 
-            var envApiKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY")
+            var envApiKey = Environment.GetEnvironmentVariable("GOOGLE_API_KEY")
+                            ?? Environment.GetEnvironmentVariable("GEMINI_API_KEY")
                             ?? Environment.GetEnvironmentVariable("Gemini__ApiKey");
 
             if (!string.IsNullOrWhiteSpace(envApiKey))
