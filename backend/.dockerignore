@@ -1,0 +1,10 @@
+**/.git
+**/.vs
+**/bin
+**/obj
+**/.vscode
+**/.idea
+**/publish*
+appsettings.Development.json
+*.user
+*.suo

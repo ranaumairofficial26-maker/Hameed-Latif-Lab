@@ -20,4 +20,10 @@
     <Compile Include="..\HammadLatifLab.ChatBot.Infrastructure\**\*.cs" Exclude="..\HammadLatifLab.ChatBot.Infrastructure\obj\**\*.cs;..\HammadLatifLab.ChatBot.Infrastructure\bin\**\*.cs" Link="Infrastructure\%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -8,6 +8,13 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Dynamically listen on PORT assigned by hosting platforms (Render, Railway, Cloud Run)
+var port = Environment.GetEnvironmentVariable("PORT");
+if (!string.IsNullOrWhiteSpace(port))
+{
+    builder.WebHost.UseUrls($"http://+:{port}");
+}
+
 // 1. Add Services
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -32,15 +39,12 @@ var faqFilePath = Path.Combine(builder.Environment.ContentRootPath, "Data", "faq
 var testsFilePath = Path.Combine(builder.Environment.ContentRootPath, "Data", "tests.json");
 builder.Services.AddInfrastructure(builder.Configuration, faqFilePath, testsFilePath);
 
-// 5. CORS policy for React & Angular frontends
+// 5. CORS policy for React & Angular frontends (supports localhost, Cloudflare, Vercel, and Render)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins(
-                "http://localhost:5173", 
-                "http://localhost:3000", 
-                "http://localhost:4300")
+        policy.SetIsOriginAllowed(_ => true)
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
