@@ -100,7 +100,8 @@ public class ChatService : IChatService
             else
             {
                 var trimmed = geminiResponse.Trim();
-                finalAnswer = ResponseSanitizer.Clean(trimmed, isGreeting);
+                bool isFirstMessage = history.Count == 0;
+                finalAnswer = isFirstMessage ? trimmed : ResponseSanitizer.Clean(trimmed, isGreeting);
                 bool greetingStripped = !string.Equals(finalAnswer, trimmed, StringComparison.Ordinal);
 
                 _logger.LogInformation(

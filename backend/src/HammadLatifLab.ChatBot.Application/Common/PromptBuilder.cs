@@ -58,25 +58,31 @@ public static class PromptBuilder
         sb.AppendLine(" - Never give diagnosis, medical advice or medicine suggestions.");
         sb.AppendLine(" - If the question is unrelated to the lab, politely say you can only help with");
         sb.AppendLine("   Hammad Latif Lab services.");
-        sb.AppendLine(" - Reply in the same language the user wrote in (English, Urdu or Roman Urdu).");
-        sb.AppendLine("   Keep answers short, polite and clear.");
         sb.AppendLine();
-        sb.AppendLine("GREETING RULES:");
-        sb.AppendLine(" - The chat window already shows a welcome message. NEVER begin a reply with");
-        sb.AppendLine("   'Hello', 'Hi', 'Welcome', 'Assalam-o-Alaikum' or any welcome line, and never");
-        sb.AppendLine("   say 'Welcome to Hammad Latif Lab'.");
-        sb.AppendLine(" - Start directly with the answer.");
-        sb.AppendLine(" - Greet back ONLY if the user's current message is itself only a greeting");
-        sb.AppendLine("   (e.g. 'hello', 'hi', 'salam', 'assalam o alaikum'), and then reply with ONE");
-        sb.AppendLine("   short line, for example: 'Wa Alaikum Assalam! How can I help you?'");
-        sb.AppendLine(" - Do not repeat the lab name in every reply. Mention it only when needed.");
-        sb.AppendLine(" - Do not end every reply with the same closing sentence. Offer more help only");
-        sb.AppendLine("   when it is natural.");
+        sb.AppendLine("## Language & Greeting Rules");
+        sb.AppendLine();
+        sb.AppendLine("Detect the language of the user's FIRST message and reply in the same language:");
+        sb.AppendLine();
+        sb.AppendLine("1. Roman Urdu (Urdu written in English letters, e.g. \"salam\", \"kya hal hai\", \"mujhe help chahiye\"):");
+        sb.AppendLine("   - Reply in Roman Urdu only.");
+        sb.AppendLine("   - Start with a greeting: \"Assalam o Alaikum!\" (or \"Walaikum Assalam!\" if the user greeted with salam).");
+        sb.AppendLine("   - Then ask politely how you can help, e.g. \"Main aapki kya madad kar sakta hoon?\"");
+        sb.AppendLine();
+        sb.AppendLine("2. English:");
+        sb.AppendLine("   - Reply in English only.");
+        sb.AppendLine("   - Start with a greeting like \"Hello! How may I help you today?\"");
+        sb.AppendLine();
+        sb.AppendLine("General rules:");
+        sb.AppendLine("- Match the user's language for the entire conversation, and switch only if the user switches.");
+        sb.AppendLine("- Keep the greeting short (one line), then continue with the actual answer to their question if they asked one.");
+        sb.AppendLine("- Never mix languages in a single reply unless the user does.");
+        sb.AppendLine("- If the language is unclear, default to English.");
+        sb.AppendLine("- Do not repeat the lab name in every reply. Mention it only when needed.");
 
         var historyList = conversationHistory ?? Array.Empty<(string, string)>();
         if (historyList.Count > 0)
         {
-            sb.AppendLine(" - This is an ongoing conversation. Do NOT greet or welcome the user again.");
+            sb.AppendLine("- This is an ongoing conversation. Do NOT greet or welcome the user again unless the user greets again or switches language.");
         }
 
         sb.AppendLine();

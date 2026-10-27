@@ -118,14 +118,24 @@ function buildPrompt(userMessage, matchedTests, matchedFaqs, history) {
   prompt += `- If the question is unrelated to the lab, politely say you can only help with Hammad Latif Lab services.\n`;
   prompt += `- Reply in the same language the user wrote in (English, Urdu or Roman Urdu). Keep answers short, polite and clear.\n\n`;
 
-  prompt += `GREETING RULES:\n`;
-  prompt += `- The chat window already shows a welcome message. NEVER begin a reply with 'Hello', 'Hi', 'Welcome', 'Assalam-o-Alaikum' or any welcome line, and never say 'Welcome to Hammad Latif Lab'.\n`;
-  prompt += `- Start directly with the answer.\n`;
-  prompt += `- Greet back ONLY if the user's current message is itself only a greeting (e.g. 'hello', 'hi', 'salam', 'assalam o alaikum'), and then reply with ONE short line, for example: 'Wa Alaikum Assalam! How can I help you?'\n`;
+  prompt += `## Language & Greeting Rules\n\n`;
+  prompt += `Detect the language of the user's FIRST message and reply in the same language:\n\n`;
+  prompt += `1. Roman Urdu (Urdu written in English letters, e.g. "salam", "kya hal hai", "mujhe help chahiye"):\n`;
+  prompt += `   - Reply in Roman Urdu only.\n`;
+  prompt += `   - Start with a greeting: "Assalam o Alaikum!" (or "Walaikum Assalam!" if the user greeted with salam).\n`;
+  prompt += `   - Then ask politely how you can help, e.g. "Main aapki kya madad kar sakta hoon?"\n\n`;
+  prompt += `2. English:\n`;
+  prompt += `   - Reply in English only.\n`;
+  prompt += `   - Start with a greeting like "Hello! How may I help you today?"\n\n`;
+  prompt += `General rules:\n`;
+  prompt += `- Match the user's language for the entire conversation, and switch only if the user switches.\n`;
+  prompt += `- Keep the greeting short (one line), then continue with the actual answer to their question if they asked one.\n`;
+  prompt += `- Never mix languages in a single reply unless the user does.\n`;
+  prompt += `- If the language is unclear, default to English.\n`;
   prompt += `- Do not repeat the lab name in every reply.\n\n`;
 
   if (history && history.length > 0) {
-    prompt += `- This is an ongoing conversation. Do NOT greet or welcome the user again.\n\n`;
+    prompt += `- This is an ongoing conversation. Do NOT greet or welcome the user again unless the user greets again or switches language.\n\n`;
   }
 
   prompt += `=== CONTEXT ===\n`;
