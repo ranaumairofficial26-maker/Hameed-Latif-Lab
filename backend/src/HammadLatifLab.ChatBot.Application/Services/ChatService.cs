@@ -79,9 +79,23 @@ public class ChatService : IChatService
             var geminiResponse = await _geminiClient.GenerateContentAsync(prompt, cancellationToken);
             if (string.IsNullOrWhiteSpace(geminiResponse))
             {
-                _logger.LogWarning("Gemini returned empty text for session {SessionId}. Returning fallback message.", sessionId);
-                finalAnswer = PromptBuilder.GetFallbackMessage(request.Message);
-                isGrounded = false;
+                _logger.LogWarning("Gemini returned empty text for session {SessionId}. Using repository fallback.", sessionId);
+                if (matchedFaqs.Count > 0)
+                {
+                    finalAnswer = matchedFaqs[0].Answer;
+                    isGrounded = true;
+                }
+                else if (matchedTests.Count > 0)
+                {
+                    var t = matchedTests[0];
+                    finalAnswer = $"Test **{t.Name}** is available at Hammad Latif Lab.\n• Price: **Rs. {t.Price}**\n• Turnaround Time: **{t.Time}**\nFor booking or home sampling, contact our 24/7 Helpline: **+92-42-111-455-522** or WhatsApp: **0311-1222873**.";
+                    isGrounded = true;
+                }
+                else
+                {
+                    finalAnswer = PromptBuilder.GetFallbackMessage(request.Message);
+                    isGrounded = false;
+                }
             }
             else
             {
@@ -100,9 +114,23 @@ public class ChatService : IChatService
         }
         catch (Exception ex)
         {
-            _logger.LogError(ex, "Gemini client call failed or timed out for session {SessionId}. Returning fallback message.", sessionId);
-            finalAnswer = PromptBuilder.GetFallbackMessage(request.Message);
-            isGrounded = false;
+            _logger.LogError(ex, "Gemini client call failed or timed out for session {SessionId}. Using repository fallback.", sessionId);
+            if (matchedFaqs.Count > 0)
+            {
+                finalAnswer = matchedFaqs[0].Answer;
+                isGrounded = true;
+            }
+            else if (matchedTests.Count > 0)
+            {
+                var t = matchedTests[0];
+                finalAnswer = $"Test **{t.Name}** is available at Hammad Latif Lab.\n• Price: **Rs. {t.Price}**\n• Turnaround Time: **{t.Time}**\nFor booking or home sampling, contact our 24/7 Helpline: **+92-42-111-455-522** or WhatsApp: **0311-1222873**.";
+                isGrounded = true;
+            }
+            else
+            {
+                finalAnswer = PromptBuilder.GetFallbackMessage(request.Message);
+                isGrounded = false;
+            }
         }
 
         // 6. Save messages to session store (last 6 retained automatically)

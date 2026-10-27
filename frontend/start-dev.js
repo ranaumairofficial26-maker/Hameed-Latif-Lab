@@ -20,27 +20,44 @@ function isBackendRunning() {
 
 async function start() {
   const running = await isBackendRunning();
+  let backend = null;
   if (!running) {
     console.log(`[Dev] Starting Hammad Latif Lab backend on http://localhost:${BACKEND_PORT}...`);
     const serverPath = path.resolve(__dirname, '..', 'backend', 'dev-server.js');
-    const backend = spawn('node', [serverPath], { stdio: 'inherit' });
+    backend = spawn(process.execPath, [serverPath], { stdio: 'inherit' });
 
     backend.on('error', (err) => {
       console.error('[Dev] Failed to start backend dev-server:', err);
     });
-
-    process.on('exit', () => backend.kill());
   } else {
     console.log(`[Dev] Backend already active on http://localhost:${BACKEND_PORT}`);
   }
 
   console.log(`[Dev] Starting Angular on http://localhost:${FRONTEND_PORT}...`);
   const ngCmd = process.platform === 'win32' ? 'npx.cmd' : 'npx';
-  const frontend = spawn(ngCmd, ['ng', 'serve', '--port', String(FRONTEND_PORT)], { stdio: 'inherit', cwd: __dirname });
+  const frontend = spawn(ngCmd, ['ng', 'serve', '--port', String(FRONTEND_PORT)], {
+    stdio: 'inherit',
+    cwd: __dirname,
+    shell: true,
+  });
 
   frontend.on('error', (err) => {
     console.error('[Dev] Failed to start Angular:', err);
   });
+
+  const cleanup = () => {
+    if (backend) {
+      try { backend.kill(); } catch (_) {}
+    }
+    if (frontend) {
+      try { frontend.kill(); } catch (_) {}
+    }
+    process.exit();
+  };
+
+  process.on('exit', cleanup);
+  process.on('SIGINT', cleanup);
+  process.on('SIGTERM', cleanup);
 }
 
 start();

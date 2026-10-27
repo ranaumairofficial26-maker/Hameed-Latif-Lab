@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild, inject, ChangeDetectorRef, signal } from '@angular/core';
+import { Component, ElementRef, ViewChild, inject, ChangeDetectorRef, signal, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
@@ -19,7 +19,7 @@ interface ChatMessage {
   templateUrl: './chatbot-widget.html',
   styleUrl: './chatbot-widget.css',
 })
-export class ChatbotWidget {
+export class ChatbotWidget implements OnInit {
   private http = inject(HttpClient);
   private cdr = inject(ChangeDetectorRef);
 
@@ -30,6 +30,17 @@ export class ChatbotWidget {
   inputText = '';
   isLoading = signal(false);
   sessionId = 'sess_' + Math.random().toString(36).substring(2, 10);
+
+  ngOnInit() {
+    // Warm up backend on hosting services (e.g. Render spin-down wake up)
+    try {
+      const healthUrl = environment.apiUrl.replace(/\/api\/?$/, '') + '/health';
+      this.http.get(healthUrl, { responseType: 'text' }).subscribe({
+        next: () => {},
+        error: () => {},
+      });
+    } catch (_) {}
+  }
 
   messages = signal<ChatMessage[]>([
     {

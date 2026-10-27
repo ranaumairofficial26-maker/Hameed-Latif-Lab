@@ -61,7 +61,7 @@ public static class DependencyInjection
         {
             var baseUrl = geminiConfig.BaseUrl.TrimEnd('/') + "/";
             client.BaseAddress = new Uri(baseUrl);
-            client.Timeout = TimeSpan.FromSeconds(6);
+            client.Timeout = TimeSpan.FromSeconds(30);
         });
 
         return services;
